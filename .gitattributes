@@ -1,0 +1,6 @@
+output/* linguist-vendored
+Test_out/* linguist-vendored
+allure-report/* linguist-vendored
+*.html linguist-generated
+*.css linguist-generated
+*.js linguist-generated
