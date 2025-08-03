@@ -1,0 +1,5 @@
+[INFO] 04-08-2025 01:20:45 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 04-08-2025 01:20:46 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 04-08-2025 01:20:46 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 04-08-2025 01:20:47 [main] [utilities.LogsUtility] - Test Case Click_on_Remove started
+[INFO] 04-08-2025 01:20:57 [main] [utilities.LogsUtility] - Test Case Click_on_Remove passed
