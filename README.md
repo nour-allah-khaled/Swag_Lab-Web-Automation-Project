@@ -121,10 +121,9 @@ allure serve Test_out/allure-results
 Test_out/allure-results
 ```
 
-📈 *Example screenshot of the report interface:*
+📈 **Example screenshot of the report interface:**
 
-![Allure Report Screenshot](<img width="1919" height="977" alt="image" src="https://github.com/user-attachments/assets/7357e5a8-d242-4b0b-a583-bc2d0cf503b3" />
-)
+![Allure Report Screenshot](https://github.com/nour-allah-khaled/Swag_Lab-Web-Automation-Project/blob/main/assets/allure-report.png)
 
 ---
 
@@ -148,7 +147,7 @@ cd Swag_Lab_Project
 mvn clean test
 ```
 
-4. Generate and open Allure report:
+4. Generate and open the Allure report:
 
 ```bash
 allure serve Test_out/allure-results
@@ -158,7 +157,8 @@ allure serve Test_out/allure-results
 
 ## 👤 Author
 
-**Nour Allah Khaled**
-Manual and Automation Tester
-🔗 [LinkedIn](https://www.linkedin.com/in/nourallahkhaled)
+**Nour Allah Khaled**  
+Manual and Automation Tester  
+🔗 [LinkedIn](https://www.linkedin.com/in/nourallahkhaled)  
 📧 [nourallahk7@gmail.com](mailto:nourallahk7@gmail.com)
+
