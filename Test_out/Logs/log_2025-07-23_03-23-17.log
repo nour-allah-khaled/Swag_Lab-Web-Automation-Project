@@ -1,0 +1,5 @@
+[INFO] 23-07-2025 03:23:17 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 03:23:18 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 03:23:18 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 03:23:19 [main] [Utities.LogsUtility] - Test Case Valid_AddToCartButton started
+[INFO] 23-07-2025 03:23:19 [main] [Utities.LogsUtility] - Test Case Valid_AddToCartButton passed

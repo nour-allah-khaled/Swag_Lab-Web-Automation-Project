@@ -1,0 +1,40 @@
+[INFO] 25-07-2025 05:39:08 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 25-07-2025 05:39:10 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 25-07-2025 05:39:10 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 25-07-2025 05:39:11 [main] [Utities.LogsUtility] - Test Case Click_Cancel started
+[INFO] 25-07-2025 05:39:11 [main] [Utities.LogsUtility] - Test Case Click_Cancel passed
+[INFO] 25-07-2025 05:39:12 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 25-07-2025 05:39:13 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 25-07-2025 05:39:13 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 25-07-2025 05:39:14 [main] [Utities.LogsUtility] - Test Case InValid_Firstname_Checkout started
+[INFO] 25-07-2025 05:39:14 [main] [Utities.LogsUtility] - Test Case InValid_Firstname_Checkout failed
+[INFO] 25-07-2025 05:39:15 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 25-07-2025 05:39:16 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 25-07-2025 05:39:16 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 25-07-2025 05:39:17 [main] [Utities.LogsUtility] - Test Case InValid_Lastname_Checkout started
+[INFO] 25-07-2025 05:39:18 [main] [Utities.LogsUtility] - Test Case InValid_Lastname_Checkout failed
+[INFO] 25-07-2025 05:39:19 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 25-07-2025 05:39:20 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 25-07-2025 05:39:20 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 25-07-2025 05:39:20 [main] [Utities.LogsUtility] - Test Case InValid_Postal_Checkout started
+[INFO] 25-07-2025 05:39:21 [main] [Utities.LogsUtility] - Test Case InValid_Postal_Checkout failed
+[INFO] 25-07-2025 05:39:22 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 25-07-2025 05:39:23 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 25-07-2025 05:39:23 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 25-07-2025 05:39:24 [main] [Utities.LogsUtility] - Test Case Valid_Checkout started
+[INFO] 25-07-2025 05:39:24 [main] [Utities.LogsUtility] - Test Case Valid_Checkout passed
+[INFO] 25-07-2025 05:39:26 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 25-07-2025 05:39:26 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 25-07-2025 05:39:27 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 25-07-2025 05:39:27 [main] [Utities.LogsUtility] - Test Case Valid_Empty_Firstname_Message started
+[INFO] 25-07-2025 05:39:27 [main] [Utities.LogsUtility] - Test Case Valid_Empty_Firstname_Message failed
+[INFO] 25-07-2025 05:39:29 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 25-07-2025 05:39:30 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 25-07-2025 05:39:30 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 25-07-2025 05:39:31 [main] [Utities.LogsUtility] - Test Case Valid_Empty_Lastname_Message started
+[INFO] 25-07-2025 05:39:31 [main] [Utities.LogsUtility] - Test Case Valid_Empty_Lastname_Message failed
+[INFO] 25-07-2025 05:39:33 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 25-07-2025 05:39:33 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 25-07-2025 05:39:33 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 25-07-2025 05:39:34 [main] [Utities.LogsUtility] - Test Case Valid_Empty_Postal_Message started
+[INFO] 25-07-2025 05:39:35 [main] [Utities.LogsUtility] - Test Case Valid_Empty_Postal_Message failed

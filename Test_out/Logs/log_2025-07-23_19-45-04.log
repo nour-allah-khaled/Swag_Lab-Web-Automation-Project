@@ -1,0 +1,5 @@
+[INFO] 23-07-2025 19:45:04 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:45:05 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:45:05 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 19:45:06 [main] [Utities.LogsUtility] - Test Case Valid_RemovefromCart started
+[INFO] 23-07-2025 19:45:16 [main] [Utities.LogsUtility] - Test Case Valid_RemovefromCart passed

@@ -1,0 +1,4 @@
+[INFO] 21-07-2025 18:50:14 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 21-07-2025 18:50:15 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 21-07-2025 18:50:15 [main] [Utities.LogsUtility] - Test Case testLogin started
+[INFO] 21-07-2025 18:50:15 [main] [Utities.LogsUtility] - Test Case testLogin passed

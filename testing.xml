@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite">
+    <listeners>
+        <listener class-name="Listeners.TestMethodLoggerListener"/>
+        <listener class-name="Listeners.ITestResultListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="MyTests">
+        <classes>
+            <class name="Tests.Login_TC">
+                <methods>
+                    <include name="testLogin"/>
+                    <include name="Invaliduser_testLogin"/>
+                    <include name="Invalidpass_testLogin"/>
+                    <include name="empty_testLogin"/>
+                </methods>
+            </class>
+            <class name="Tests.Home_TC"/>
+            <class name="Tests.Product_Details_TC"/>
+            <class name="Tests.Add_Cart_TC"></class>
+            <class name="Tests.Checkout_TC"></class>
+            <class name="Tests.OverView_TC"></class>
+            <class name="Tests.Finish_Tc"></class>
+        </classes>
+    </test>
+</suite>

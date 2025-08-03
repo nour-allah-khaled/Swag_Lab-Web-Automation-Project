@@ -1,0 +1,16 @@
+[INFO] 21-07-2025 18:52:24 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 21-07-2025 18:52:25 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 21-07-2025 18:52:25 [main] [Utities.LogsUtility] - Test Case Invalidpass_testLogin started
+[INFO] 21-07-2025 18:52:26 [main] [Utities.LogsUtility] - Test Case Invalidpass_testLogin failed
+[INFO] 21-07-2025 18:52:28 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 21-07-2025 18:52:29 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 21-07-2025 18:52:29 [main] [Utities.LogsUtility] - Test Case Invaliduser_testLogin started
+[INFO] 21-07-2025 18:52:30 [main] [Utities.LogsUtility] - Test Case Invaliduser_testLogin failed
+[INFO] 21-07-2025 18:52:32 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 21-07-2025 18:52:33 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 21-07-2025 18:52:33 [main] [Utities.LogsUtility] - Test Case empty_testLogin started
+[INFO] 21-07-2025 18:52:33 [main] [Utities.LogsUtility] - Test Case empty_testLogin failed
+[INFO] 21-07-2025 18:52:36 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 21-07-2025 18:52:37 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 21-07-2025 18:52:37 [main] [Utities.LogsUtility] - Test Case testLogin started
+[INFO] 21-07-2025 18:52:38 [main] [Utities.LogsUtility] - Test Case testLogin passed
