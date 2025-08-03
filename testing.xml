@@ -2,13 +2,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="TestSuite">
     <listeners>
-        <listener class-name="Listeners.TestMethodLoggerListener"/>
-        <listener class-name="Listeners.ITestResultListener"/>
+        <listener class-name="listeners.TestMethodLoggerListener"/>
+        <listener class-name="listeners.ITestResultListener"/>
         <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
     </listeners>
     <test name="MyTests">
         <classes>
-            <class name="Tests.Login_TC">
+            <class name="tests.Login_TC">
                 <methods>
                     <include name="testLogin"/>
                     <include name="Invaliduser_testLogin"/>
@@ -16,12 +16,12 @@
                     <include name="empty_testLogin"/>
                 </methods>
             </class>
-            <class name="Tests.Home_TC"/>
-            <class name="Tests.Product_Details_TC"/>
-            <class name="Tests.Add_Cart_TC"></class>
-            <class name="Tests.Checkout_TC"></class>
-            <class name="Tests.OverView_TC"></class>
-            <class name="Tests.Finish_Tc"></class>
+            <class name="tests.Home_TC"/>
+            <class name="tests.Product_Details_TC"/>
+            <class name="tests.Add_Cart_TC"></class>
+            <class name="tests.Checkout_TC"></class>
+            <class name="tests.OverView_TC"></class>
+            <class name="tests.Finish_Tc"></class>
         </classes>
     </test>
 </suite>

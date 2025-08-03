@@ -1,1 +1,0 @@
-{"uuid":"000459db-b20c-4369-b826-79c3cc8dfdc2","name":"Tests.Finish_Tc.quit","children":["01948763-0d96-40b5-bad8-e8f2efee4c02"],"description":"","befores":[],"afters":[{"name":"quit","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1753477907970,"stop":1753477908164}],"start":1753477907970,"stop":1753477908164}
