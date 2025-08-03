@@ -1,0 +1,5 @@
+[INFO] 25-07-2025 22:53:08 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 25-07-2025 22:53:09 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 25-07-2025 22:53:10 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 25-07-2025 22:53:10 [main] [Utities.LogsUtility] - Test Case Valid_Return started
+[INFO] 25-07-2025 22:53:11 [main] [Utities.LogsUtility] - Test Case Valid_Return passed

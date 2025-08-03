@@ -1,0 +1,5 @@
+[INFO] 25-07-2025 22:52:46 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 25-07-2025 22:52:47 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 25-07-2025 22:52:48 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 25-07-2025 22:52:48 [main] [Utities.LogsUtility] - Test Case Invalid_Return started
+[INFO] 25-07-2025 22:52:49 [main] [Utities.LogsUtility] - Test Case Invalid_Return failed

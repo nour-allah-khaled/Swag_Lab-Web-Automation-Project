@@ -1,0 +1,96 @@
+[INFO] 23-07-2025 19:46:28 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:46:29 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:46:30 [main] [Utities.LogsUtility] - Test Case testLogin started
+[INFO] 23-07-2025 19:46:30 [main] [Utities.LogsUtility] - Test Case testLogin passed
+[INFO] 23-07-2025 19:46:31 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:46:32 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:46:32 [main] [Utities.LogsUtility] - Test Case Invaliduser_testLogin started
+[INFO] 23-07-2025 19:46:33 [main] [Utities.LogsUtility] - Test Case Invaliduser_testLogin failed
+[INFO] 23-07-2025 19:46:34 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:46:35 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:46:35 [main] [Utities.LogsUtility] - Test Case Invalidpass_testLogin started
+[INFO] 23-07-2025 19:46:35 [main] [Utities.LogsUtility] - Test Case Invalidpass_testLogin failed
+[INFO] 23-07-2025 19:46:37 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:46:38 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:46:38 [main] [Utities.LogsUtility] - Test Case empty_testLogin started
+[INFO] 23-07-2025 19:46:38 [main] [Utities.LogsUtility] - Test Case empty_testLogin failed
+[INFO] 23-07-2025 19:46:40 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:46:40 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:46:41 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 19:46:41 [main] [Utities.LogsUtility] - Test Case INValid_product_details started
+[INFO] 23-07-2025 19:46:41 [main] [Utities.LogsUtility] - Test Case INValid_product_details failed
+[INFO] 23-07-2025 19:46:43 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:46:44 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:46:44 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 19:46:44 [main] [Utities.LogsUtility] - Test Case Logout started
+[INFO] 23-07-2025 19:46:45 [main] [Utities.LogsUtility] - Test Case Logout passed
+[INFO] 23-07-2025 19:46:46 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:46:47 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:46:48 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 19:46:48 [main] [Utities.LogsUtility] - Test Case Valid_AddToCartButton started
+[INFO] 23-07-2025 19:46:48 [main] [Utities.LogsUtility] - Test Case Valid_AddToCartButton passed
+[INFO] 23-07-2025 19:46:49 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:46:50 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:46:51 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 19:46:51 [main] [Utities.LogsUtility] - Test Case Valid_Navigate_Cart started
+[INFO] 23-07-2025 19:46:51 [main] [Utities.LogsUtility] - Test Case Valid_Navigate_Cart passed
+[INFO] 23-07-2025 19:46:52 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:46:53 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:46:54 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 19:46:54 [main] [Utities.LogsUtility] - Test Case Valid_RemoveButton started
+[INFO] 23-07-2025 19:46:54 [main] [Utities.LogsUtility] - Test Case Valid_RemoveButton passed
+[INFO] 23-07-2025 19:46:55 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:46:56 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:46:56 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 19:46:56 [main] [Utities.LogsUtility] - Test Case Valid_RemovefromCart started
+[INFO] 23-07-2025 19:47:08 [main] [Utities.LogsUtility] - Test Case Valid_RemovefromCart failed
+[INFO] 23-07-2025 19:47:09 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:47:10 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:47:10 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 19:47:10 [main] [Utities.LogsUtility] - Test Case Valid_Sort_AtoZ started
+[INFO] 23-07-2025 19:47:11 [main] [Utities.LogsUtility] - Test Case Valid_Sort_AtoZ passed
+[INFO] 23-07-2025 19:47:12 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:47:13 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:47:13 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 19:47:13 [main] [Utities.LogsUtility] - Test Case Valid_Sort_HighToLow started
+[INFO] 23-07-2025 19:47:13 [main] [Utities.LogsUtility] - Test Case Valid_Sort_HighToLow passed
+[INFO] 23-07-2025 19:47:15 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:47:15 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:47:16 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 19:47:16 [main] [Utities.LogsUtility] - Test Case Valid_Sort_LowToHigh started
+[INFO] 23-07-2025 19:47:16 [main] [Utities.LogsUtility] - Test Case Valid_Sort_LowToHigh passed
+[INFO] 23-07-2025 19:47:17 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:47:18 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:47:18 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 19:47:18 [main] [Utities.LogsUtility] - Test Case Valid_Sort_ZtoA started
+[INFO] 23-07-2025 19:47:19 [main] [Utities.LogsUtility] - Test Case Valid_Sort_ZtoA passed
+[INFO] 23-07-2025 19:47:20 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:47:21 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:47:21 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 19:47:21 [main] [Utities.LogsUtility] - Test Case Valid_product_details started
+[INFO] 23-07-2025 19:47:21 [main] [Utities.LogsUtility] - Test Case Valid_product_details passed
+[INFO] 23-07-2025 19:47:23 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:47:24 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:47:24 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 19:47:25 [main] [Utities.LogsUtility] - Test Case Click_Cart_icon started
+[INFO] 23-07-2025 19:47:25 [main] [Utities.LogsUtility] - Test Case Click_Cart_icon passed
+[INFO] 23-07-2025 19:47:26 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:47:27 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:47:27 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 19:47:28 [main] [Utities.LogsUtility] - Test Case Click_pre_page started
+[INFO] 23-07-2025 19:47:28 [main] [Utities.LogsUtility] - Test Case Click_pre_page passed
+[INFO] 23-07-2025 19:47:29 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:47:30 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:47:30 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 19:47:31 [main] [Utities.LogsUtility] - Test Case Valid_AddToCartButton started
+[INFO] 23-07-2025 19:47:31 [main] [Utities.LogsUtility] - Test Case Valid_AddToCartButton passed
+[INFO] 23-07-2025 19:47:32 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:47:33 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:47:33 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 19:47:34 [main] [Utities.LogsUtility] - Test Case Valid_Remove started
+[INFO] 23-07-2025 19:47:34 [main] [Utities.LogsUtility] - Test Case Valid_Remove passed
+[INFO] 23-07-2025 19:47:36 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 19:47:37 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 19:47:38 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 19:47:38 [main] [Utities.LogsUtility] - Test Case Valid_RemovefromCart started
+[INFO] 23-07-2025 19:47:48 [main] [Utities.LogsUtility] - Test Case Valid_RemovefromCart passed

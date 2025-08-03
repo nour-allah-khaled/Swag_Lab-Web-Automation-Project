@@ -1,0 +1,5 @@
+[INFO] 25-07-2025 05:52:08 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 25-07-2025 05:52:09 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 25-07-2025 05:52:10 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 25-07-2025 05:52:10 [main] [Utities.LogsUtility] - Test Case Valid_Empty_Postal_Message started
+[INFO] 25-07-2025 05:52:11 [main] [Utities.LogsUtility] - Test Case Valid_Empty_Postal_Message passed

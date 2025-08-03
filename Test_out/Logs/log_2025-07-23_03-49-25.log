@@ -1,0 +1,25 @@
+[INFO] 23-07-2025 03:49:25 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 03:49:26 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 03:49:26 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 03:49:27 [main] [Utities.LogsUtility] - Test Case Click_Cart_icon started
+[INFO] 23-07-2025 03:49:27 [main] [Utities.LogsUtility] - Test Case Click_Cart_icon passed
+[INFO] 23-07-2025 03:49:29 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 03:49:29 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 03:49:30 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 03:49:30 [main] [Utities.LogsUtility] - Test Case Click_pre_page started
+[INFO] 23-07-2025 03:49:30 [main] [Utities.LogsUtility] - Test Case Click_pre_page passed
+[INFO] 23-07-2025 03:49:32 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 03:49:33 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 03:49:33 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 03:49:33 [main] [Utities.LogsUtility] - Test Case Valid_AddToCartButton started
+[INFO] 23-07-2025 03:49:33 [main] [Utities.LogsUtility] - Test Case Valid_AddToCartButton passed
+[INFO] 23-07-2025 03:49:35 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 03:49:36 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 03:49:36 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 03:49:36 [main] [Utities.LogsUtility] - Test Case Valid_Remove started
+[INFO] 23-07-2025 03:49:37 [main] [Utities.LogsUtility] - Test Case Valid_Remove passed
+[INFO] 23-07-2025 03:49:38 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 23-07-2025 03:49:39 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 23-07-2025 03:49:39 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 23-07-2025 03:49:39 [main] [Utities.LogsUtility] - Test Case Valid_RemovefromCart started
+[INFO] 23-07-2025 03:49:49 [main] [Utities.LogsUtility] - Test Case Valid_RemovefromCart failed

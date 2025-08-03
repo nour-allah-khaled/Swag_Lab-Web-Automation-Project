@@ -1,0 +1,4 @@
+[INFO] 21-07-2025 17:16:50 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 21-07-2025 17:16:51 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 21-07-2025 17:16:52 [main] [Utities.LogsUtility] - Test Case empty_testLogin started
+[INFO] 21-07-2025 17:16:52 [main] [Utities.LogsUtility] - Test Case empty_testLogin failed

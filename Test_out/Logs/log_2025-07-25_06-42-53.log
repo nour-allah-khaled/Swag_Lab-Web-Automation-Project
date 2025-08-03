@@ -1,0 +1,5 @@
+[INFO] 25-07-2025 06:42:53 [main] [Utities.LogsUtility] - Edge Driver is opened
+[INFO] 25-07-2025 06:42:54 [main] [Utities.LogsUtility] - Page is Redirected to URL
+[INFO] 25-07-2025 06:42:55 [main] [Utities.LogsUtility] - User logged in successfully
+[INFO] 25-07-2025 06:42:56 [main] [Utities.LogsUtility] - Test Case Click_Cancel started
+[INFO] 25-07-2025 06:42:56 [main] [Utities.LogsUtility] - Test Case Click_Cancel passed
