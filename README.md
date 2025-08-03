@@ -159,6 +159,6 @@ allure serve Test_out/allure-results
 
 **Nour Allah Khaled**  
 Manual and Automation Tester  
-🔗 [LinkedIn](www.linkedin.com/in/nour-allah-khaled)  
+🔗 [LinkedIn](https://www.linkedin.com/in/nour-allah-khaled/) 
 📧 [nourallahk7@gmail.com](mailto:nourallahk7@gmail.com)
 
