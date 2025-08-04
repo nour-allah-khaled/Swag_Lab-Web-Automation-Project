@@ -64,19 +64,35 @@ public class Utilitie {
         return new SimpleDateFormat("yyyy-MM-dd-h-m-ssa").format(new Date());
     }
     public static void Screen_shot(WebDriver driver, String screenshotName) {
-        try{
+        try {
+            if (driver == null) {
+                System.out.println("Driver is null, cannot take screenshot.");
+                return;
+            }
+            driver.getTitle();
             File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
-            File screenshotFile = new File(SCREENSHOTS_PATH + screenshotName+"-"+GetTimeStamp()+ ".png");
+            File screenshotFile = new File(SCREENSHOTS_PATH + screenshotName + "-" + GetTimeStamp() + ".png");
             FileUtils.copyFile(screenshot, screenshotFile);
 
             Allure.addAttachment(screenshotName, Files.newInputStream(Path.of(screenshotFile.getPath())));
-        }catch (Exception e){
+        } catch (Exception e) {
+            System.out.println("Could not take screenshot: " + e.getMessage());
             e.printStackTrace();
         }
     }
+
     public static List<WebElement> findElements(WebDriver driver, By locator) {
         return driver.findElements(locator);
+    }
+    public static void waitForElementToDisappear(WebDriver driver, By locator) {
+        try {
+            generalWait(driver).until(ExpectedConditions.invisibilityOfElementLocated(locator));
+            System.out.println("Element disappeared: " + locator.toString());
+        } catch (TimeoutException e) {
+            System.out.println("Element did not disappear in time: " + locator.toString());
+            throw e;
+        }
     }
 
 

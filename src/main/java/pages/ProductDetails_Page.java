@@ -18,7 +18,7 @@ public class ProductDetails_Page{
     }
     public ProductDetails_Page clickAddToCart() {
         Utilitie.clicking(driver, addTocartBtn);
-        return new ProductDetails_Page(driver);
+        return this;
     }
     public String getCartBadgeNumber() {
         try {
@@ -29,7 +29,7 @@ public class ProductDetails_Page{
     }
     public ProductDetails_Page clickRemove() {
         Utilitie.clicking(driver, remove);
-        return new ProductDetails_Page(driver);
+        return this;
     }
     public String getRemoveButtonText() {
         return driver.findElement(remove).getText();

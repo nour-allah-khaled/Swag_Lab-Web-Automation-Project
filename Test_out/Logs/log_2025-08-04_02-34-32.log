@@ -1,0 +1,8 @@
+[INFO] 04-08-2025 02:34:32 [main] [utilities.LogsUtility] - Test Case LoginToCart_Scenario started
+[INFO] 04-08-2025 02:34:32 [main] [utilities.LogsUtility] - Test Case LoginToCart_Scenario failed
+[INFO] 04-08-2025 02:34:32 [main] [utilities.LogsUtility] - Test Case LoginToFinsh_Scenario started
+[INFO] 04-08-2025 02:34:32 [main] [utilities.LogsUtility] - Test Case LoginToFinsh_Scenario failed
+[INFO] 04-08-2025 02:34:32 [main] [utilities.LogsUtility] - Test Case LoginToRemoveFromCart_Scenario started
+[INFO] 04-08-2025 02:34:32 [main] [utilities.LogsUtility] - Test Case LoginToRemoveFromCart_Scenario failed
+[INFO] 04-08-2025 02:34:32 [main] [utilities.LogsUtility] - Test Case LoingToHome_withSortingPrice_Scenario started
+[INFO] 04-08-2025 02:34:32 [main] [utilities.LogsUtility] - Test Case LoingToHome_withSortingPrice_Scenario failed
