@@ -27,7 +27,7 @@ import static utitie.TestData.*;
 public class Product_Details_TC {
     @BeforeMethod
     public void setUp() throws IOException {
-        setDriver(DataUtitlie.getPropertyValue("enviroments", "Browser"));
+        setDriver(Browser);
         LogsUtility.info("Edge Driver is opened");
         getDriver().get(DataUtitlie.getPropertyValue("enviroments", "LOGIN_URL"));
         LogsUtility.info("Page is Redirected to URL");

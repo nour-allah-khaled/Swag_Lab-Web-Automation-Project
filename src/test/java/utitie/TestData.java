@@ -33,7 +33,14 @@ public class TestData {
     public final static String InExP_product_Details;
     public final static String Cancle;
     public final static String Cart_URL;
+    public final static String Browser;
+
     static {
+        try {
+            Browser = DataUtitlie.getPropertyValue("enviroments", "Browser");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         try {
             Cart_URL = DataUtitlie.getPropertyValue("enviroments","Cart_Link");
         } catch (IOException e) {

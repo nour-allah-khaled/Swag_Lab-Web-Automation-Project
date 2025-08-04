@@ -1,6 +1,7 @@
 package e2e_Scenairos;
 
 import driver_factory.DriverFactory;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -8,15 +9,17 @@ import org.testng.annotations.Test;
 import pages.*;
 import utilities.DataUtitlie;
 import utilities.LogsUtility;
+import utilities.Utilitie;
+
 import java.io.IOException;
 import java.time.Duration;
 import static driver_factory.DriverFactory.getDriver;
 import static driver_factory.DriverFactory.setDriver;
 import static utitie.TestData.*;
 public class Valid_E2E_Scenarios {
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setUp() throws IOException {
-        setDriver(DataUtitlie.getPropertyValue("enviroments", "Browser"));
+        setDriver(Browser);
         LogsUtility.info("Edge Driver is opened");
         getDriver().get(DataUtitlie.getPropertyValue("enviroments", "LOGIN_URL"));
         LogsUtility.info("Page is Redirected to URL");
@@ -93,10 +96,11 @@ public class Valid_E2E_Scenarios {
                 "the cart badge increased successfully and the product appear on the cart page");
         product.clickCart();
         new AddToCart_Page(getDriver()).click_remove_item();
-        Assert.assertFalse(new AddToCart_Page(getDriver()).isRemoveButtonPresent(),"The Item Has beeen removed successfullly");
+        Utilitie.waitForElementToDisappear(getDriver(), By.id("remove-sauce-labs-backpack"));
+        Assert.assertFalse(new AddToCart_Page(getDriver()).isRemoveButtonPresent(), "The Item Has beeen removed successfullly");
         LogsUtility.info("User navigated successfully to the cart and after clicking on the Remove button, the item disappear");
     }
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void quit() {
         DriverFactory.quit();
     }
