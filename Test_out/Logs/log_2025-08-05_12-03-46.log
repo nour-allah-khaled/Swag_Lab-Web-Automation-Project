@@ -1,0 +1,190 @@
+[INFO] 05-08-2025 12:03:47 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:03:48 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:03:48 [main] [utilities.LogsUtility] - Test Case testLogin started
+[INFO] 05-08-2025 12:03:49 [main] [utilities.LogsUtility] - Test Case testLogin passed
+[INFO] 05-08-2025 12:03:53 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:03:53 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:03:53 [main] [utilities.LogsUtility] - Test Case Invaliduser_testLogin started
+[INFO] 05-08-2025 12:03:56 [main] [utilities.LogsUtility] - Test Case Invaliduser_testLogin failed
+[INFO] 05-08-2025 12:04:02 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:04:04 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:04:04 [main] [utilities.LogsUtility] - Test Case Invalidpass_testLogin started
+[INFO] 05-08-2025 12:04:05 [main] [utilities.LogsUtility] - Test Case Invalidpass_testLogin failed
+[INFO] 05-08-2025 12:04:11 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:04:12 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:04:12 [main] [utilities.LogsUtility] - Test Case empty_testLogin started
+[INFO] 05-08-2025 12:04:14 [main] [utilities.LogsUtility] - Test Case empty_testLogin failed
+[INFO] 05-08-2025 12:04:18 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:04:25 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:04:26 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:04:26 [main] [utilities.LogsUtility] - Test Case INValid_product_details started
+[INFO] 05-08-2025 12:04:27 [main] [utilities.LogsUtility] - Test Case INValid_product_details passed
+[INFO] 05-08-2025 12:04:31 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:04:35 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:04:35 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:04:35 [main] [utilities.LogsUtility] - Test Case Logout started
+[INFO] 05-08-2025 12:04:36 [main] [utilities.LogsUtility] - Test Case Logout passed
+[INFO] 05-08-2025 12:04:40 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:04:41 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:04:42 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:04:42 [main] [utilities.LogsUtility] - Test Case Valid_AddToCartButton started
+[INFO] 05-08-2025 12:04:42 [main] [utilities.LogsUtility] - Test Case Valid_AddToCartButton passed
+[INFO] 05-08-2025 12:04:47 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:04:51 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:04:51 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:04:51 [main] [utilities.LogsUtility] - Test Case Valid_Navigate_Cart started
+[INFO] 05-08-2025 12:04:52 [main] [utilities.LogsUtility] - Test Case Valid_Navigate_Cart passed
+[INFO] 05-08-2025 12:04:55 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:04:57 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:04:58 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:04:58 [main] [utilities.LogsUtility] - Test Case Valid_RemoveButton started
+[INFO] 05-08-2025 12:04:58 [main] [utilities.LogsUtility] - Test Case Valid_RemoveButton passed
+[INFO] 05-08-2025 12:05:02 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:05:13 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:05:14 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:05:14 [main] [utilities.LogsUtility] - Test Case Valid_RemovefromCart started
+[INFO] 05-08-2025 12:05:34 [main] [utilities.LogsUtility] - Test Case Valid_RemovefromCart passed
+[INFO] 05-08-2025 12:05:38 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:05:40 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:05:41 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:05:41 [main] [utilities.LogsUtility] - Test Case Valid_Sort_AtoZ started
+[INFO] 05-08-2025 12:05:41 [main] [utilities.LogsUtility] - Test Case Valid_Sort_AtoZ passed
+[INFO] 05-08-2025 12:05:45 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:05:46 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:05:47 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:05:47 [main] [utilities.LogsUtility] - Test Case Valid_Sort_HighToLow started
+[INFO] 05-08-2025 12:05:47 [main] [utilities.LogsUtility] - Test Case Valid_Sort_HighToLow passed
+[INFO] 05-08-2025 12:05:51 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:05:51 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:05:53 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:05:53 [main] [utilities.LogsUtility] - Test Case Valid_Sort_LowToHigh started
+[INFO] 05-08-2025 12:05:54 [main] [utilities.LogsUtility] - Test Case Valid_Sort_LowToHigh passed
+[INFO] 05-08-2025 12:05:58 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:06:00 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:06:01 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:06:01 [main] [utilities.LogsUtility] - Test Case Valid_Sort_ZtoA started
+[INFO] 05-08-2025 12:06:01 [main] [utilities.LogsUtility] - Test Case Valid_Sort_ZtoA passed
+[INFO] 05-08-2025 12:06:06 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:06:08 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:06:09 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:06:09 [main] [utilities.LogsUtility] - Test Case Valid_product_details started
+[INFO] 05-08-2025 12:06:10 [main] [utilities.LogsUtility] - Test Case Valid_product_details passed
+[INFO] 05-08-2025 12:06:13 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:06:17 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:06:18 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:06:19 [main] [utilities.LogsUtility] - Test Case Click_Cart_icon started
+[INFO] 05-08-2025 12:06:19 [main] [utilities.LogsUtility] - Test Case Click_Cart_icon passed
+[INFO] 05-08-2025 12:06:23 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:06:26 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:06:27 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:06:28 [main] [utilities.LogsUtility] - Test Case Click_pre_page started
+[INFO] 05-08-2025 12:06:28 [main] [utilities.LogsUtility] - Test Case Click_pre_page passed
+[INFO] 05-08-2025 12:06:32 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:06:33 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:06:41 [main] [utilities.LogsUtility] - Test Case setUp failed
+[INFO] 05-08-2025 12:06:41 [main] [utilities.LogsUtility] - Test Case Valid_AddToCartButton started
+[INFO] 05-08-2025 12:06:41 [main] [utilities.LogsUtility] - Test Case Valid_AddToCartButton skipped
+[INFO] 05-08-2025 12:06:41 [main] [utilities.LogsUtility] - Test Case Valid_Remove started
+[INFO] 05-08-2025 12:06:41 [main] [utilities.LogsUtility] - Test Case Valid_Remove skipped
+[INFO] 05-08-2025 12:06:41 [main] [utilities.LogsUtility] - Test Case Valid_RemovefromCart started
+[INFO] 05-08-2025 12:06:41 [main] [utilities.LogsUtility] - Test Case Valid_RemovefromCart skipped
+[INFO] 05-08-2025 12:06:47 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:06:52 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:06:57 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:06:59 [main] [utilities.LogsUtility] - Test Case CartBadge_After_Remove started
+[INFO] 05-08-2025 12:07:21 [main] [utilities.LogsUtility] - Test Case CartBadge_After_Remove passed
+[INFO] 05-08-2025 12:07:29 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:07:31 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:07:33 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:07:35 [main] [utilities.LogsUtility] - Test Case Click_on_Product started
+[INFO] 05-08-2025 12:07:35 [main] [utilities.LogsUtility] - Test Case Click_on_Product passed
+[INFO] 05-08-2025 12:07:46 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:07:46 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:07:49 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:07:51 [main] [utilities.LogsUtility] - Test Case Click_on_Remove started
+[INFO] 05-08-2025 12:08:01 [main] [utilities.LogsUtility] - Test Case Click_on_Remove passed
+[INFO] 05-08-2025 12:08:04 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:08:05 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:08:06 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:08:07 [main] [utilities.LogsUtility] - Test Case InValid_Checkout started
+[INFO] 05-08-2025 12:08:07 [main] [utilities.LogsUtility] - Test Case InValid_Checkout failed
+[INFO] 05-08-2025 12:08:09 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:08:10 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:08:12 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:08:12 [main] [utilities.LogsUtility] - Test Case Invalid_Return started
+[INFO] 05-08-2025 12:08:13 [main] [utilities.LogsUtility] - Test Case Invalid_Return failed
+[INFO] 05-08-2025 12:08:15 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:08:17 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:08:18 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:08:18 [main] [utilities.LogsUtility] - Test Case Valid_Checkout started
+[INFO] 05-08-2025 12:08:19 [main] [utilities.LogsUtility] - Test Case Valid_Checkout passed
+[INFO] 05-08-2025 12:08:22 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:08:23 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:08:24 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:08:25 [main] [utilities.LogsUtility] - Test Case Valid_Return started
+[INFO] 05-08-2025 12:08:25 [main] [utilities.LogsUtility] - Test Case Valid_Return passed
+[INFO] 05-08-2025 12:08:28 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:08:29 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:08:29 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:08:30 [main] [utilities.LogsUtility] - Test Case Click_Cancel started
+[INFO] 05-08-2025 12:08:30 [main] [utilities.LogsUtility] - Test Case Click_Cancel passed
+[INFO] 05-08-2025 12:08:32 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:08:32 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:08:33 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:08:34 [main] [utilities.LogsUtility] - Test Case InValid_Firstname_Checkout started
+[INFO] 05-08-2025 12:08:34 [main] [utilities.LogsUtility] - Test Case InValid_Firstname_Checkout failed
+[INFO] 05-08-2025 12:08:37 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:08:37 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:08:38 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:08:39 [main] [utilities.LogsUtility] - Test Case InValid_Lastname_Checkout started
+[INFO] 05-08-2025 12:08:39 [main] [utilities.LogsUtility] - Test Case InValid_Lastname_Checkout failed
+[INFO] 05-08-2025 12:08:41 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:08:42 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:08:43 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:08:43 [main] [utilities.LogsUtility] - Test Case InValid_Postal_Checkout started
+[INFO] 05-08-2025 12:08:44 [main] [utilities.LogsUtility] - Test Case InValid_Postal_Checkout failed
+[INFO] 05-08-2025 12:08:46 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:08:47 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:08:48 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:08:48 [main] [utilities.LogsUtility] - Test Case Valid_Checkout started
+[INFO] 05-08-2025 12:08:48 [main] [utilities.LogsUtility] - Test Case Valid_Checkout passed
+[INFO] 05-08-2025 12:08:50 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:08:52 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:08:52 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:08:52 [main] [utilities.LogsUtility] - Test Case Valid_Empty_Firstname_Message started
+[INFO] 05-08-2025 12:08:53 [main] [utilities.LogsUtility] - Test Case Valid_Empty_Firstname_Message passed
+[INFO] 05-08-2025 12:08:55 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:08:56 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:08:57 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:08:58 [main] [utilities.LogsUtility] - Test Case Valid_Empty_Lastname_Message started
+[INFO] 05-08-2025 12:08:58 [main] [utilities.LogsUtility] - Test Case Valid_Empty_Lastname_Message passed
+[INFO] 05-08-2025 12:09:00 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:09:01 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:09:02 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:09:03 [main] [utilities.LogsUtility] - Test Case Valid_Empty_Postal_Message started
+[INFO] 05-08-2025 12:09:03 [main] [utilities.LogsUtility] - Test Case Valid_Empty_Postal_Message passed
+[INFO] 05-08-2025 12:09:06 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:09:07 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:09:07 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:09:08 [main] [utilities.LogsUtility] - Test Case Clickon_Cancle started
+[INFO] 05-08-2025 12:09:08 [main] [utilities.LogsUtility] - Test Case Clickon_Cancle passed
+[INFO] 05-08-2025 12:09:11 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:09:12 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:09:12 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:09:13 [main] [utilities.LogsUtility] - Test Case Clickon_Finish started
+[INFO] 05-08-2025 12:09:13 [main] [utilities.LogsUtility] - Test Case Clickon_Finish passed
+[INFO] 05-08-2025 12:09:15 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:09:16 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:09:17 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:09:18 [main] [utilities.LogsUtility] - Test Case Invalid_Clickon_Cancle started
+[INFO] 05-08-2025 12:09:18 [main] [utilities.LogsUtility] - Test Case Invalid_Clickon_Cancle failed
+[INFO] 05-08-2025 12:09:21 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:09:21 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:09:22 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:09:23 [main] [utilities.LogsUtility] - Test Case InValid_Order started
+[INFO] 05-08-2025 12:09:23 [main] [utilities.LogsUtility] - Test Case InValid_Order failed
+[INFO] 05-08-2025 12:09:26 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 05-08-2025 12:09:26 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 05-08-2025 12:09:27 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 05-08-2025 12:09:29 [main] [utilities.LogsUtility] - Test Case Valid_Order started
+[INFO] 05-08-2025 12:09:29 [main] [utilities.LogsUtility] - Test Case Valid_Order passed

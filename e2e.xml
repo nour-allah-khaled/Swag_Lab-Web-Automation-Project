@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="E2E Test Suite" verbose="1" parallel="false">
+    <listeners>
+        <listener class-name="listeners.TestMethodLoggerListener"/>
+        <listener class-name="listeners.ITestResultListener"/>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="Valid Scenarios">
+        <groups>
+            <run>
+                <include name="Valid_Scenarios"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="e2e_Scenairos.Valid_E2E_Scenarios"/>
+        </classes>
+    </test>
+
+</suite>
