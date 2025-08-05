@@ -4,3 +4,7 @@ allure-report/* linguist-vendored
 *.html linguist-generated
 *.css linguist-generated
 *.js linguist-generated
+*.sh linguist-vendored
+*.bat linguist-vendored
+*.cmd linguist-vendored
+
