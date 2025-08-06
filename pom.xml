@@ -137,7 +137,7 @@
             </build>
         </profile>
         <profile>
-            <id>parallel-tests</id>
+            <id>smoke-tests</id>
             <build>
                 <plugins>
                     <plugin>
