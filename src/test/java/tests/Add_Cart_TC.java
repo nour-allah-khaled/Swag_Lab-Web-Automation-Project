@@ -61,7 +61,7 @@ public class Add_Cart_TC {
     @Test
     public void Click_on_Product() {
         ProductDetails_Page home = new AddToCart_Page(getDriver()).click_product_detail();
-        Assert.assertEquals(home.assertdetaails(),Product_Details_URL);
+        Assert.assertEquals(home.assertdetaails(),Expected);
     }
     @Test
     public void Click_on_Remove()

@@ -6,11 +6,13 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import utilities.LogsUtility;
 
 public class DriverFactory {
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
     public static void setDriver(String browser) {
+        LogsUtility.info("Running on browser: " + browser);
         switch (browser.toLowerCase())
         {
             case "chrome":

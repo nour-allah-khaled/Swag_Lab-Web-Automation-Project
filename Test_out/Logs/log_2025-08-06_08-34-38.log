@@ -1,0 +1,6 @@
+[INFO] 06-08-2025 08:34:38 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 06-08-2025 08:34:45 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 06-08-2025 08:34:46 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 06-08-2025 08:34:46 [main] [utilities.LogsUtility] - User logged in successfully
+[INFO] 06-08-2025 08:34:47 [main] [utilities.LogsUtility] - Test Case INValid_product_details started
+[INFO] 06-08-2025 08:34:47 [main] [utilities.LogsUtility] - Test Case INValid_product_details passed
