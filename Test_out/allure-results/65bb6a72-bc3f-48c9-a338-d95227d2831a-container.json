@@ -1,0 +1,1 @@
+{"uuid":"65bb6a72-bc3f-48c9-a338-d95227d2831a","name":"smoke_scenairos.Smoke.setUp","children":["b477b4e9-0430-4f2a-904c-01797f08ca0e"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1754463119030,"stop":1754463123550}],"afters":[],"start":1754463119028,"stop":1754463123550}

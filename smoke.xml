@@ -5,24 +5,14 @@
         <listener class-name="listeners.ITestResultListener"/>
         <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
     </listeners>
-    <test name="Valid Scenarios">
+    <test name="Smoke Test Valid Scenarios">
         <groups>
             <run>
-                <include name="Valid_Scenarios"/>
+                <include name="Smoke"/>
             </run>
         </groups>
         <classes>
-            <class name="e2e_scenairos.Valid_E2E_Scenarios"/>
-        </classes>
-    </test>
-    <test name="InValid Scenarios">
-        <groups>
-            <run>
-                <include name="InValid_Scenarios"/>
-            </run>
-        </groups>
-        <classes>
-            <class name="e2e_scenairos.InValid_E2E_Scenarios"/>
+            <class name="smoke_scenairos.Smoke"/>
         </classes>
     </test>
 </suite>

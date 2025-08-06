@@ -25,7 +25,6 @@ public class TestData {
     public final static String finish;
     public final static String Cart;
     public final static String Logout;
-    public final static String Product_Details_URL;
     public final static String EmFirst;
     public final static String EmLast;
     public final static String EmPostal;
@@ -52,7 +51,7 @@ public class TestData {
             throw new RuntimeException(e);
         }
         try {
-            InExP_product_Details = DataUtitlie.getPropertyValue("enviroments","Product_Details_URL");
+            InExP_product_Details = DataUtitlie.getPropertyValue("enviroments","Details_URL");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -63,11 +62,6 @@ public class TestData {
         }
         try {
             EmPostal = DataUtitlie.getPropertyValue("enviroments","Empty_Postal");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        try {
-            Product_Details_URL = DataUtitlie.getPropertyValue("enviroments","Valid_Product_Details_URL");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

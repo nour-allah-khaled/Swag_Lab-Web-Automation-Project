@@ -9,4 +9,5 @@ public class AllureUtils {
     {
         FileUtils.deleteQuietly(new File("Test_out/allure-results"));
     }
+
 }

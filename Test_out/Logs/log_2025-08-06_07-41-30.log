@@ -1,0 +1,83 @@
+[INFO] 06-08-2025 07:41:30 [TestNG-tests-1] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 06-08-2025 07:41:30 [TestNG-tests-2] [utilities.LogsUtility] - Running on browser: chrome
+[INFO] 06-08-2025 07:41:36 [TestNG-tests-1] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 06-08-2025 07:41:38 [TestNG-tests-1] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 06-08-2025 07:41:39 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoginToCart_Scenario started
+[INFO] 06-08-2025 07:41:39 [TestNG-tests-1] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 06-08-2025 07:41:40 [TestNG-tests-1] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 06-08-2025 07:41:40 [TestNG-tests-1] [utilities.LogsUtility] - User navigated successfully to the add to cart page and navigate to the Checkout page
+[INFO] 06-08-2025 07:41:40 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoginToCart_Scenario passed
+[INFO] 06-08-2025 07:41:40 [TestNG-tests-1] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 06-08-2025 07:41:45 [TestNG-tests-1] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 06-08-2025 07:41:49 [TestNG-tests-1] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 06-08-2025 07:41:49 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoginToFinsh_Scenario started
+[INFO] 06-08-2025 07:41:50 [TestNG-tests-1] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 06-08-2025 07:41:50 [TestNG-tests-1] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 06-08-2025 07:41:51 [TestNG-tests-1] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 06-08-2025 07:41:51 [TestNG-tests-1] [utilities.LogsUtility] - User navigated successfully to the add to cart page and navigate to the Checkout page
+[INFO] 06-08-2025 07:41:52 [TestNG-tests-1] [utilities.LogsUtility] - User navigated successfully to the Checkout page and redirect to the Overview page after clicking on the continue button
+[INFO] 06-08-2025 07:41:52 [TestNG-tests-1] [utilities.LogsUtility] - User navigated successfully to the Overview page and redirect to the Finish page after clicking on the finish button
+[INFO] 06-08-2025 07:41:52 [TestNG-tests-1] [utilities.LogsUtility] - The checkout complated successfully and navigated to the Home page
+[INFO] 06-08-2025 07:41:52 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoginToFinsh_Scenario passed
+[INFO] 06-08-2025 07:41:53 [TestNG-tests-1] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 06-08-2025 07:41:57 [TestNG-tests-1] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 06-08-2025 07:41:57 [TestNG-tests-1] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 06-08-2025 07:41:58 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoginToProductDetails_Scenario started
+[INFO] 06-08-2025 07:42:01 [TestNG-tests-1] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 06-08-2025 07:42:01 [TestNG-tests-1] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 06-08-2025 07:42:01 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoginToProductDetails_Scenario passed
+[INFO] 06-08-2025 07:42:02 [TestNG-tests-1] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 06-08-2025 07:42:03 [TestNG-tests-2] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 06-08-2025 07:42:04 [TestNG-tests-2] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 06-08-2025 07:42:04 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoginToCart_Scenario started
+[INFO] 06-08-2025 07:42:08 [TestNG-tests-1] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 06-08-2025 07:42:09 [TestNG-tests-1] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 06-08-2025 07:42:09 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoginToRemoveFromCart_Scenario started
+[INFO] 06-08-2025 07:42:09 [TestNG-tests-2] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 06-08-2025 07:42:10 [TestNG-tests-2] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 06-08-2025 07:42:10 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoginToCart_Scenario failed
+[INFO] 06-08-2025 07:42:11 [TestNG-tests-2] [utilities.LogsUtility] - Running on browser: chrome
+[INFO] 06-08-2025 07:42:11 [TestNG-tests-1] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 06-08-2025 07:42:11 [TestNG-tests-1] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 06-08-2025 07:42:11 [TestNG-tests-1] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 06-08-2025 07:42:14 [TestNG-tests-2] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 06-08-2025 07:42:16 [TestNG-tests-2] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 06-08-2025 07:42:16 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoginToFinsh_Scenario started
+[INFO] 06-08-2025 07:42:17 [TestNG-tests-2] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 06-08-2025 07:42:18 [TestNG-tests-2] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 06-08-2025 07:42:18 [TestNG-tests-2] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 06-08-2025 07:42:19 [TestNG-tests-2] [utilities.LogsUtility] - User navigated successfully to the add to cart page and navigate to the Checkout page
+[INFO] 06-08-2025 07:42:22 [TestNG-tests-2] [utilities.LogsUtility] - User navigated successfully to the Checkout page and redirect to the Overview page after clicking on the continue button
+[INFO] 06-08-2025 07:42:22 [TestNG-tests-2] [utilities.LogsUtility] - User navigated successfully to the Overview page and redirect to the Finish page after clicking on the finish button
+[INFO] 06-08-2025 07:42:23 [TestNG-tests-2] [utilities.LogsUtility] - The checkout complated successfully and navigated to the Home page
+[INFO] 06-08-2025 07:42:23 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoginToFinsh_Scenario passed
+[INFO] 06-08-2025 07:42:25 [TestNG-tests-2] [utilities.LogsUtility] - Running on browser: chrome
+[INFO] 06-08-2025 07:42:28 [TestNG-tests-2] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 06-08-2025 07:42:29 [TestNG-tests-2] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 06-08-2025 07:42:29 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoginToProductDetails_Scenario started
+[INFO] 06-08-2025 07:42:30 [TestNG-tests-2] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 06-08-2025 07:42:30 [TestNG-tests-2] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 06-08-2025 07:42:30 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoginToProductDetails_Scenario passed
+[INFO] 06-08-2025 07:42:30 [TestNG-tests-2] [utilities.LogsUtility] - Running on browser: chrome
+[INFO] 06-08-2025 07:42:32 [TestNG-tests-1] [utilities.LogsUtility] - User navigated successfully to the cart and after clicking on the Remove button, the item disappear
+[INFO] 06-08-2025 07:42:32 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoginToRemoveFromCart_Scenario passed
+[INFO] 06-08-2025 07:42:34 [TestNG-tests-2] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 06-08-2025 07:42:35 [TestNG-tests-2] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 06-08-2025 07:42:35 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoginToRemoveFromCart_Scenario started
+[INFO] 06-08-2025 07:42:36 [TestNG-tests-1] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 06-08-2025 07:42:36 [TestNG-tests-2] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 06-08-2025 07:42:37 [TestNG-tests-2] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 06-08-2025 07:42:37 [TestNG-tests-2] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 06-08-2025 07:42:39 [TestNG-tests-1] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 06-08-2025 07:42:41 [TestNG-tests-1] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 06-08-2025 07:42:41 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoingToHome_withSortingPrice_Scenario started
+[INFO] 06-08-2025 07:42:42 [TestNG-tests-1] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 06-08-2025 07:42:42 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoingToHome_withSortingPrice_Scenario passed
+[INFO] 06-08-2025 07:42:57 [TestNG-tests-2] [utilities.LogsUtility] - User navigated successfully to the cart and after clicking on the Remove button, the item disappear
+[INFO] 06-08-2025 07:42:57 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoginToRemoveFromCart_Scenario passed
+[INFO] 06-08-2025 07:42:58 [TestNG-tests-2] [utilities.LogsUtility] - Running on browser: chrome
+[INFO] 06-08-2025 07:43:01 [TestNG-tests-2] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 06-08-2025 07:43:04 [TestNG-tests-2] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 06-08-2025 07:43:04 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoingToHome_withSortingPrice_Scenario started
+[INFO] 06-08-2025 07:43:05 [TestNG-tests-2] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 06-08-2025 07:43:05 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoingToHome_withSortingPrice_Scenario passed

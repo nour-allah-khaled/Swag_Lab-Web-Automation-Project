@@ -1,0 +1,8 @@
+[INFO] 06-08-2025 09:36:56 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 06-08-2025 09:36:59 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 06-08-2025 09:37:00 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 06-08-2025 09:37:01 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 06-08-2025 09:37:01 [main] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 06-08-2025 09:37:01 [main] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 06-08-2025 09:37:01 [main] [utilities.LogsUtility] - User navigated successfully to the add to cart page and navigate to the Checkout page
+[INFO] 06-08-2025 09:37:01 [main] [utilities.LogsUtility] - User navigated successfully to the Checkout page and an error message is displayed for empty first name
