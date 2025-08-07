@@ -33,7 +33,7 @@ public class OverView_TC {
         product.clickCart();
         AddToCart_Page addtocart = new AddToCart_Page(getDriver());
         addtocart.click_checkout();
-        new Checkout_Page(getDriver()).First_Name(Firstname).Lasr_Name(Lastname).Postal_Code(postalCode).Click_Continue();
+        new Checkout_Page(getDriver()).First_Name(Firstname).Last_Name(Lastname).Postal_Code(postalCode).Click_Continue();
     }
     @Test
     public void Clickon_Finish()

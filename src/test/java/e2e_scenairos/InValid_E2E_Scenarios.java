@@ -1,6 +1,10 @@
 package e2e_scenairos;
 
 import driver_factory.DriverFactory;
+import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -26,7 +30,9 @@ public class InValid_E2E_Scenarios {
         LogsUtility.info("Page is Redirected to URL");
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
-
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify the invalid login scenario by entering invalid name")
+    @Owner("Nour Allah Khaled")
     @Test(groups = {"InValid_Scenarios"})
     public void InvalidLogin_Scenario() {
         new Login_Page(getDriver()).userlogin(invalidname)
@@ -35,7 +41,9 @@ public class InValid_E2E_Scenarios {
         LogsUtility.info("User navigated successfully to the login page " +
                 "and an error message is displayed for invalid name field");
     }
-
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify the invalid login scenario by entering leaving the fields empty")
+    @Owner("Nour Allah Khaled")
     @Test(groups = {"InValid_Scenarios"})
     public void Login_Emptyname_Scenario() {
         new Login_Page(getDriver()).userlogin(emptyname)
@@ -44,7 +52,9 @@ public class InValid_E2E_Scenarios {
         LogsUtility.info("User navigated successfully to the login page " +
                 "and an error message is displayed for empty name field");
     }
-
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify the invalid navigation scenario by entering invalid product URL")
+    @Owner("Nour Allah Khaled")
     @Test(groups = {"InValid_Scenarios"})
     public void LoginToInvalidProductURL_Scenario() {
         new Login_Page(getDriver()).userlogin(username).passlogin(password).LoginBtn();
@@ -54,7 +64,10 @@ public class InValid_E2E_Scenarios {
         Assert.assertTrue(new Home_Page(getDriver()).assertProdcut(InExP_product_Details), "Product Details URL does not match expected.");
         LogsUtility.info("User failed to navigate to the product details page ");
     }
-
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify the invalid checkout scenario by entering empty last name " +
+            " and trying to navigate to the finish page without completing checkout")
+    @Owner("Nour Allah Khaled")
     @Test(groups = {"InValid_Scenarios"})
     public void LoginToInvalidChecout_Scenario() {
         new Login_Page(getDriver()).userlogin(username).passlogin(password).LoginBtn();
@@ -74,12 +87,16 @@ public class InValid_E2E_Scenarios {
         addtocart.click_checkout();
         Assert.assertTrue(new AddToCart_Page(getDriver()).assert_item(Checkout));
         LogsUtility.info("User navigated successfully to the add to cart page and navigate to the Checkout page");
-        new Checkout_Page(getDriver()).First_Name(Firstname).Lasr_Name(empty_last)
+        new Checkout_Page(getDriver()).First_Name(Firstname).Last_Name(empty_last)
                 .Postal_Code(postalCode).Click_Continue();
         Assert.assertEquals(new Checkout_Page(getDriver()).assert_URL(),overview);
         LogsUtility.info("User navigated successfully to the Checkout page " +
                 "and an error message is displayed for empty last name");
     }
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify the invalid finish scenario by trying to navigate to the finish page " +
+            "with invalid URl after completing checkout")
+    @Owner("Nour Allah Khaled")
     @Test(groups = {"InValid_Scenarios"})
     public void LoginToInvalidFinish_Scenario() {
         new Login_Page(getDriver()).userlogin(username).passlogin(password).LoginBtn();
@@ -99,7 +116,7 @@ public class InValid_E2E_Scenarios {
         addtocart.click_checkout();
         Assert.assertTrue(new AddToCart_Page(getDriver()).assert_item(Checkout));
         LogsUtility.info("User navigated successfully to the add to cart page and navigate to the Checkout page");
-        new Checkout_Page(getDriver()).First_Name(Firstname).Lasr_Name(Lastname)
+        new Checkout_Page(getDriver()).First_Name(Firstname).Last_Name(Lastname)
                 .Postal_Code(postalCode).Click_Continue();
         Assert.assertEquals(new Checkout_Page(getDriver()).assert_URL(),overview);
         LogsUtility.info("User navigated successfully to the Checkout page " +

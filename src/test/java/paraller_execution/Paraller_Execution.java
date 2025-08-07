@@ -47,7 +47,7 @@ public class Paraller_Execution {
         addtocart.click_checkout();
         Assert.assertTrue(new AddToCart_Page(getDriver()).assert_item(Checkout));
         LogsUtility.info("User navigated successfully to the add to cart page and navigate to the Checkout page");
-        new Checkout_Page(getDriver()).First_Name(Firstname).Lasr_Name(Lastname)
+        new Checkout_Page(getDriver()).First_Name(Firstname).Last_Name(Lastname)
                 .Postal_Code(postalCode).Click_Continue();
         Assert.assertEquals(new Checkout_Page(getDriver()).assert_URL(), overview);
         LogsUtility.info("User navigated successfully to the Checkout page " +

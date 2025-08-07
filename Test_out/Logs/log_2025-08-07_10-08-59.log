@@ -1,0 +1,8 @@
+[INFO] 07-08-2025 10:08:59 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 07-08-2025 10:09:03 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 07-08-2025 10:09:05 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 07-08-2025 10:09:06 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 07-08-2025 10:09:06 [main] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 07-08-2025 10:09:07 [main] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 07-08-2025 10:09:27 [main] [utilities.LogsUtility] - User navigated successfully to the cart and after clicking on the Remove button, the item disappear
+[INFO] 07-08-2025 10:09:27 [main] [utilities.LogsUtility] - Driver is closed

@@ -26,7 +26,7 @@ public class Checkout_Page {
         Utilitie.sendKeys(driver,firstname,first);
         return this;
     }
-    public Checkout_Page Lasr_Name(String last)
+    public Checkout_Page Last_Name(String last)
     {
         Utilitie.sendKeys(driver,lastname,last);
         return this;

@@ -20,6 +20,7 @@ import utilities.LogsUtility;
         TestMethodLoggerListener.class,
         ITestResultListener.class
 })
+
 public class Checkout_TC {
 
     public Checkout_TC() throws IOException {
@@ -43,49 +44,49 @@ public class Checkout_TC {
     @Test
     public void Valid_Checkout()
     {
-        new Checkout_Page(getDriver()).First_Name(Firstname).Lasr_Name(Lastname)
+        new Checkout_Page(getDriver()).First_Name(Firstname).Last_Name(Lastname)
                 .Postal_Code(postalCode).Click_Continue();
         Assert.assertEquals(new Checkout_Page(getDriver()).assert_URL(),overview);
     }
     @Test
     public void InValid_Firstname_Checkout()
     {
-        new Checkout_Page(getDriver()).First_Name(empty_first).Lasr_Name(Lastname)
+        new Checkout_Page(getDriver()).First_Name(empty_first).Last_Name(Lastname)
                 .Postal_Code(postalCode).Click_Continue();
         Assert.assertEquals(new Checkout_Page(getDriver()).assert_URL(),overview);
     }
     @Test
     public void Valid_Empty_Firstname_Message()
     {
-        new Checkout_Page(getDriver()).First_Name(empty_first).Lasr_Name(Lastname)
+        new Checkout_Page(getDriver()).First_Name(empty_first).Last_Name(Lastname)
                 .Postal_Code(postalCode).Click_Continue();
         Assert.assertTrue(new Checkout_Page(getDriver()).assertErrorMessage(EmFirst),EmFirst);
     }
     @Test
     public void InValid_Lastname_Checkout()
     {
-        new Checkout_Page(getDriver()).First_Name(Firstname).Lasr_Name(empty_last)
+        new Checkout_Page(getDriver()).First_Name(Firstname).Last_Name(empty_last)
                 .Postal_Code(postalCode).Click_Continue();
         Assert.assertEquals(new Checkout_Page(getDriver()).assert_URL(),overview);
     }
     @Test
     public void Valid_Empty_Lastname_Message()
     {
-        new Checkout_Page(getDriver()).First_Name(Firstname).Lasr_Name(empty_last)
+        new Checkout_Page(getDriver()).First_Name(Firstname).Last_Name(empty_last)
                 .Postal_Code(postalCode).Click_Continue();
         Assert.assertTrue(new Checkout_Page(getDriver()).assertErrorMessage(EmLast),EmLast);
     }
     @Test
     public void InValid_Postal_Checkout()
     {
-        new Checkout_Page(getDriver()).First_Name(Firstname).Lasr_Name(Lastname)
+        new Checkout_Page(getDriver()).First_Name(Firstname).Last_Name(Lastname)
                 .Postal_Code(empty_postal).Click_Continue();
         Assert.assertEquals(new Checkout_Page(getDriver()).assert_URL(),overview);
     }
     @Test
     public void Valid_Empty_Postal_Message()
     {
-        new Checkout_Page(getDriver()).First_Name(Firstname).Lasr_Name(Lastname)
+        new Checkout_Page(getDriver()).First_Name(Firstname).Last_Name(Lastname)
                 .Postal_Code(empty_postal).Click_Continue();
         Assert.assertTrue(new Checkout_Page(getDriver()).assertErrorMessage(EmPostal),EmPostal);
     }

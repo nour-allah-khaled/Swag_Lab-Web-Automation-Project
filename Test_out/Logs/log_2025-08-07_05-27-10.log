@@ -1,0 +1,6 @@
+[INFO] 07-08-2025 05:27:10 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 07-08-2025 05:27:15 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 07-08-2025 05:27:17 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 07-08-2025 05:27:18 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 07-08-2025 05:27:18 [main] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 07-08-2025 05:27:19 [main] [utilities.LogsUtility] - Driver is closed

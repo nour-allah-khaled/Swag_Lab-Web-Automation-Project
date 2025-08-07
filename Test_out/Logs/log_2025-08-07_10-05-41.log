@@ -1,0 +1,46 @@
+[INFO] 07-08-2025 10:05:41 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 07-08-2025 10:05:48 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 07-08-2025 10:05:50 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 07-08-2025 10:05:51 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 07-08-2025 10:05:52 [main] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 07-08-2025 10:05:52 [main] [utilities.LogsUtility] - User navigated successfully to the add to cart page and navigate to the Checkout page
+[INFO] 07-08-2025 10:05:52 [main] [utilities.LogsUtility] - Driver is closed
+[INFO] 07-08-2025 10:05:52 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 07-08-2025 10:05:56 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 07-08-2025 10:05:58 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 07-08-2025 10:05:58 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 07-08-2025 10:05:59 [main] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 07-08-2025 10:06:00 [main] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 07-08-2025 10:06:00 [main] [utilities.LogsUtility] - User navigated successfully to the add to cart page and navigate to the Checkout page
+[INFO] 07-08-2025 10:06:02 [main] [utilities.LogsUtility] - User navigated successfully to the Checkout page and redirect to the Overview page after clicking on the continue button
+[INFO] 07-08-2025 10:06:03 [main] [utilities.LogsUtility] - User navigated successfully to the Overview page and redirect to the Finish page after clicking on the finish button
+[INFO] 07-08-2025 10:06:03 [main] [utilities.LogsUtility] - The checkout completed successfully and navigated to the Home page
+[INFO] 07-08-2025 10:06:04 [main] [utilities.LogsUtility] - Driver is closed
+[INFO] 07-08-2025 10:06:04 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 07-08-2025 10:06:07 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 07-08-2025 10:06:08 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 07-08-2025 10:06:09 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 07-08-2025 10:06:09 [main] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 07-08-2025 10:06:09 [main] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 07-08-2025 10:06:10 [main] [utilities.LogsUtility] - User navigated successfully to the add to cart page and navigate to the Checkout page
+[INFO] 07-08-2025 10:06:11 [main] [utilities.LogsUtility] - User navigated successfully to the Checkout page and redirect to the Overview page after clicking on the continue button
+[INFO] 07-08-2025 10:06:11 [main] [utilities.LogsUtility] - Driver is closed
+[INFO] 07-08-2025 10:06:11 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 07-08-2025 10:06:15 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 07-08-2025 10:06:16 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 07-08-2025 10:06:17 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 07-08-2025 10:06:18 [main] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 07-08-2025 10:06:18 [main] [utilities.LogsUtility] - Driver is closed
+[INFO] 07-08-2025 10:06:18 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 07-08-2025 10:06:21 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 07-08-2025 10:06:23 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 07-08-2025 10:06:23 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 07-08-2025 10:06:24 [main] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 07-08-2025 10:06:24 [main] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 07-08-2025 10:06:45 [main] [utilities.LogsUtility] - User navigated successfully to the cart and after clicking on the Remove button, the item disappear
+[INFO] 07-08-2025 10:06:45 [main] [utilities.LogsUtility] - Driver is closed
+[INFO] 07-08-2025 10:06:45 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 07-08-2025 10:06:48 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 07-08-2025 10:06:50 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 07-08-2025 10:06:51 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 07-08-2025 10:06:51 [main] [utilities.LogsUtility] - Driver is closed

@@ -1,0 +1,58 @@
+[INFO] 07-08-2025 05:35:11 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 07-08-2025 05:35:17 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 07-08-2025 05:35:18 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 07-08-2025 05:35:19 [main] [utilities.LogsUtility] - Test Case LoginToCart_Scenario started
+[INFO] 07-08-2025 05:35:20 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 07-08-2025 05:35:20 [main] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 07-08-2025 05:35:20 [main] [utilities.LogsUtility] - User navigated successfully to the add to cart page and navigate to the Checkout page
+[INFO] 07-08-2025 05:35:20 [main] [utilities.LogsUtility] - Test Case LoginToCart_Scenario passed
+[INFO] 07-08-2025 05:35:21 [main] [utilities.LogsUtility] - Driver is closed
+[INFO] 07-08-2025 05:35:21 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 07-08-2025 05:35:25 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 07-08-2025 05:35:25 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 07-08-2025 05:35:25 [main] [utilities.LogsUtility] - Test Case LoginToFinsh_Scenario started
+[INFO] 07-08-2025 05:35:28 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 07-08-2025 05:35:28 [main] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 07-08-2025 05:35:28 [main] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 07-08-2025 05:35:29 [main] [utilities.LogsUtility] - User navigated successfully to the add to cart page and navigate to the Checkout page
+[INFO] 07-08-2025 05:35:30 [main] [utilities.LogsUtility] - User navigated successfully to the Checkout page and redirect to the Overview page after clicking on the continue button
+[INFO] 07-08-2025 05:35:30 [main] [utilities.LogsUtility] - User navigated successfully to the Overview page and redirect to the Finish page after clicking on the finish button
+[INFO] 07-08-2025 05:35:30 [main] [utilities.LogsUtility] - The checkout completed successfully and navigated to the Home page
+[INFO] 07-08-2025 05:35:30 [main] [utilities.LogsUtility] - Test Case LoginToFinsh_Scenario passed
+[INFO] 07-08-2025 05:35:30 [main] [utilities.LogsUtility] - Driver is closed
+[INFO] 07-08-2025 05:35:31 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 07-08-2025 05:35:34 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 07-08-2025 05:35:35 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 07-08-2025 05:35:35 [main] [utilities.LogsUtility] - Test Case LoginToOverview_Scenario started
+[INFO] 07-08-2025 05:35:36 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 07-08-2025 05:35:36 [main] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 07-08-2025 05:35:36 [main] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 07-08-2025 05:35:37 [main] [utilities.LogsUtility] - User navigated successfully to the add to cart page and navigate to the Checkout page
+[INFO] 07-08-2025 05:35:37 [main] [utilities.LogsUtility] - User navigated successfully to the Checkout page and redirect to the Overview page after clicking on the continue button
+[INFO] 07-08-2025 05:35:37 [main] [utilities.LogsUtility] - Test Case LoginToOverview_Scenario passed
+[INFO] 07-08-2025 05:35:38 [main] [utilities.LogsUtility] - Driver is closed
+[INFO] 07-08-2025 05:35:38 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 07-08-2025 05:35:41 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 07-08-2025 05:35:42 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 07-08-2025 05:35:42 [main] [utilities.LogsUtility] - Test Case LoginToProductDetails_Scenario started
+[INFO] 07-08-2025 05:35:43 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 07-08-2025 05:35:43 [main] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 07-08-2025 05:35:43 [main] [utilities.LogsUtility] - Test Case LoginToProductDetails_Scenario passed
+[INFO] 07-08-2025 05:35:43 [main] [utilities.LogsUtility] - Driver is closed
+[INFO] 07-08-2025 05:35:43 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 07-08-2025 05:35:47 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 07-08-2025 05:35:48 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 07-08-2025 05:35:48 [main] [utilities.LogsUtility] - Test Case LoginToRemoveFromCart_Scenario started
+[INFO] 07-08-2025 05:35:49 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 07-08-2025 05:35:49 [main] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 07-08-2025 05:35:49 [main] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 07-08-2025 05:36:09 [main] [utilities.LogsUtility] - User navigated successfully to the cart and after clicking on the Remove button, the item disappear
+[INFO] 07-08-2025 05:36:09 [main] [utilities.LogsUtility] - Test Case LoginToRemoveFromCart_Scenario passed
+[INFO] 07-08-2025 05:36:10 [main] [utilities.LogsUtility] - Driver is closed
+[INFO] 07-08-2025 05:36:10 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 07-08-2025 05:36:13 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 07-08-2025 05:36:14 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 07-08-2025 05:36:14 [main] [utilities.LogsUtility] - Test Case LoingToHome_withSortingPrice_Scenario started
+[INFO] 07-08-2025 05:36:15 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 07-08-2025 05:36:15 [main] [utilities.LogsUtility] - Test Case LoingToHome_withSortingPrice_Scenario passed
+[INFO] 07-08-2025 05:36:15 [main] [utilities.LogsUtility] - Driver is closed
