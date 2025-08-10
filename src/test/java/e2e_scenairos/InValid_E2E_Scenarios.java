@@ -35,9 +35,9 @@ public class InValid_E2E_Scenarios {
     @Owner("Nour Allah Khaled")
     @Test(groups = {"InValid_Scenarios"})
     public void InvalidLogin_Scenario() {
-        new Login_Page(getDriver()).userlogin(invalidname)
+        new Page01_Login(getDriver()).userlogin(invalidname)
                 .passlogin(password).LoginBtn();
-        Assert.assertTrue(new Login_Page(getDriver()).assertLogin(Exp_URL));
+        Assert.assertTrue(new Page01_Login(getDriver()).assertLogin(Exp_URL));
         LogsUtility.info("User navigated successfully to the login page " +
                 "and an error message is displayed for invalid name field");
     }
@@ -46,9 +46,9 @@ public class InValid_E2E_Scenarios {
     @Owner("Nour Allah Khaled")
     @Test(groups = {"InValid_Scenarios"})
     public void Login_Emptyname_Scenario() {
-        new Login_Page(getDriver()).userlogin(emptyname)
+        new Page01_Login(getDriver()).userlogin(emptyname)
                 .passlogin(emptypass).LoginBtn();
-        Assert.assertTrue(new Login_Page(getDriver()).assertLogin(Exp_URL));
+        Assert.assertTrue(new Page01_Login(getDriver()).assertLogin(Exp_URL));
         LogsUtility.info("User navigated successfully to the login page " +
                 "and an error message is displayed for empty name field");
     }
@@ -57,11 +57,11 @@ public class InValid_E2E_Scenarios {
     @Owner("Nour Allah Khaled")
     @Test(groups = {"InValid_Scenarios"})
     public void LoginToInvalidProductURL_Scenario() {
-        new Login_Page(getDriver()).userlogin(username).passlogin(password).LoginBtn();
-        Assert.assertTrue(new Login_Page(getDriver()).assertLogin(Exp_URL));
+        new Page01_Login(getDriver()).userlogin(username).passlogin(password).LoginBtn();
+        Assert.assertTrue(new Page01_Login(getDriver()).assertLogin(Exp_URL));
         LogsUtility.info("User logged in successfully and navigated to the Home page");
-        new Home_Page(getDriver()).clickon_Product();
-        Assert.assertTrue(new Home_Page(getDriver()).assertProdcut(InExP_product_Details), "Product Details URL does not match expected.");
+        new Page02_Home(getDriver()).clickon_Product();
+        Assert.assertTrue(new Page02_Home(getDriver()).assertProdcut(InExP_product_Details), "Product Details URL does not match expected.");
         LogsUtility.info("User failed to navigate to the product details page ");
     }
     @Severity(SeverityLevel.CRITICAL)
@@ -70,26 +70,26 @@ public class InValid_E2E_Scenarios {
     @Owner("Nour Allah Khaled")
     @Test(groups = {"InValid_Scenarios"})
     public void LoginToInvalidChecout_Scenario() {
-        new Login_Page(getDriver()).userlogin(username).passlogin(password).LoginBtn();
-        Assert.assertTrue(new Login_Page(getDriver()).assertLogin(Exp_URL));
+        new Page01_Login(getDriver()).userlogin(username).passlogin(password).LoginBtn();
+        Assert.assertTrue(new Page01_Login(getDriver()).assertLogin(Exp_URL));
         LogsUtility.info("User logged in successfully and navigated to the Home page");
-        new Home_Page(getDriver()).clickon_Product();
-        Assert.assertTrue(new Home_Page(getDriver()).assertProdcut(Expected), "Product Details URL matches expected.");
+        new Page02_Home(getDriver()).clickon_Product();
+        Assert.assertTrue(new Page02_Home(getDriver()).assertProdcut(Expected), "Product Details URL matches expected.");
         LogsUtility.info("User Clicked on the product and navigate to the product details page");
-        ProductDetails_Page product = new ProductDetails_Page(getDriver());
+        Page03_ProductDetails product = new Page03_ProductDetails(getDriver());
         product.clickAddToCart();
         String count = product.getCartBadgeNumber();
         Assert.assertEquals("1", count);
         LogsUtility.info("After clicking on the add to cart button, " +
                 "the cart badge increased successfully and the product appear on the cart page");
         product.clickCart();
-        AddToCart_Page addtocart = new AddToCart_Page(getDriver());
+        Page04_AddToCart addtocart = new Page04_AddToCart(getDriver());
         addtocart.click_checkout();
-        Assert.assertTrue(new AddToCart_Page(getDriver()).assert_item(Checkout));
+        Assert.assertTrue(new Page04_AddToCart(getDriver()).assert_item(Checkout));
         LogsUtility.info("User navigated successfully to the add to cart page and navigate to the Checkout page");
-        new Checkout_Page(getDriver()).First_Name(Firstname).Last_Name(empty_last)
+        new Page05_Checkout(getDriver()).First_Name(Firstname).Last_Name(empty_last)
                 .Postal_Code(postalCode).Click_Continue();
-        Assert.assertEquals(new Checkout_Page(getDriver()).assert_URL(),overview);
+        Assert.assertEquals(new Page05_Checkout(getDriver()).assert_URL(),overview);
         LogsUtility.info("User navigated successfully to the Checkout page " +
                 "and an error message is displayed for empty last name");
     }
@@ -99,34 +99,34 @@ public class InValid_E2E_Scenarios {
     @Owner("Nour Allah Khaled")
     @Test(groups = {"InValid_Scenarios"})
     public void LoginToInvalidFinish_Scenario() {
-        new Login_Page(getDriver()).userlogin(username).passlogin(password).LoginBtn();
-        Assert.assertTrue(new Login_Page(getDriver()).assertLogin(Exp_URL));
+        new Page01_Login(getDriver()).userlogin(username).passlogin(password).LoginBtn();
+        Assert.assertTrue(new Page01_Login(getDriver()).assertLogin(Exp_URL));
         LogsUtility.info("User logged in successfully and navigated to the Home page");
-        new Home_Page(getDriver()).clickon_Product();
-        Assert.assertTrue(new Home_Page(getDriver()).assertProdcut(Expected), "Product Details URL matches expected.");
+        new Page02_Home(getDriver()).clickon_Product();
+        Assert.assertTrue(new Page02_Home(getDriver()).assertProdcut(Expected), "Product Details URL matches expected.");
         LogsUtility.info("User Clicked on the product and navigate to the product details page");
-        ProductDetails_Page product = new ProductDetails_Page(getDriver());
+        Page03_ProductDetails product = new Page03_ProductDetails(getDriver());
         product.clickAddToCart();
         String count = product.getCartBadgeNumber();
         Assert.assertEquals("1", count);
         LogsUtility.info("After clicking on the add to cart button, " +
                 "the cart badge increased successfully and the product appear on the cart page");
         product.clickCart();
-        AddToCart_Page addtocart = new AddToCart_Page(getDriver());
+        Page04_AddToCart addtocart = new Page04_AddToCart(getDriver());
         addtocart.click_checkout();
-        Assert.assertTrue(new AddToCart_Page(getDriver()).assert_item(Checkout));
+        Assert.assertTrue(new Page04_AddToCart(getDriver()).assert_item(Checkout));
         LogsUtility.info("User navigated successfully to the add to cart page and navigate to the Checkout page");
-        new Checkout_Page(getDriver()).First_Name(Firstname).Last_Name(Lastname)
+        new Page05_Checkout(getDriver()).First_Name(Firstname).Last_Name(Lastname)
                 .Postal_Code(postalCode).Click_Continue();
-        Assert.assertEquals(new Checkout_Page(getDriver()).assert_URL(),overview);
+        Assert.assertEquals(new Page05_Checkout(getDriver()).assert_URL(),overview);
         LogsUtility.info("User navigated successfully to the Checkout page " +
                 "and redirect to the Overview page after clicking on the continue button");
-        new OverView_Page(getDriver()).clickOnFinshBtn();
-        Assert.assertEquals(new OverView_Page(getDriver()).assert_URL(),finish);
+        new Page06_OverView(getDriver()).clickOnFinshBtn();
+        Assert.assertEquals(new Page06_OverView(getDriver()).assert_URL(),finish);
         LogsUtility.info("User navigated successfully to the Overview page " +
                 "and redirect to the Finish page after clicking on the finish button");
-        new Finish_Page(getDriver()).clickBack();
-        Assert.assertEquals(new Finish_Page(getDriver()).assert_URL(),Invalid_page);
+        new Page07_Finish(getDriver()).clickBack();
+        Assert.assertEquals(new Page07_Finish(getDriver()).assert_URL(),Invalid_page);
         LogsUtility.info("The checkout failed and navigated to the Invalid page");
     }
     @AfterMethod(alwaysRun = true)

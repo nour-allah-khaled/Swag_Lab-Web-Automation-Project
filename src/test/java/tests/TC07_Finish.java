@@ -17,7 +17,7 @@ import static driver_factory.DriverFactory.getDriver;
 import static driver_factory.DriverFactory.setDriver;
 import static utitie.TestData.*;
 
-public class Finish_Tc {
+public class TC07_Finish {
     @BeforeMethod
     public void setUp() throws IOException {
         setDriver(Browser);
@@ -25,27 +25,27 @@ public class Finish_Tc {
         getDriver().get(DataUtitlie.getPropertyValue("enviroments", "LOGIN_URL"));
         LogsUtility.info("Page is Redirected to URL");
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        new Login_Page(getDriver()).userlogin(username).passlogin(password).LoginBtn();
+        new Page01_Login(getDriver()).userlogin(username).passlogin(password).LoginBtn();
         LogsUtility.info("User logged in successfully");
-        new Home_Page(getDriver()).clickon_Product();
-        ProductDetails_Page product = new ProductDetails_Page(getDriver());
+        new Page02_Home(getDriver()).clickon_Product();
+        Page03_ProductDetails product = new Page03_ProductDetails(getDriver());
         product.clickAddToCart();
         product.clickCart();
-        AddToCart_Page addtocart = new AddToCart_Page(getDriver());
+        Page04_AddToCart addtocart = new Page04_AddToCart(getDriver());
         addtocart.click_checkout();
-        new Checkout_Page(getDriver()).First_Name(Firstname).Last_Name(Lastname)
+        new Page05_Checkout(getDriver()).First_Name(Firstname).Last_Name(Lastname)
                 .Postal_Code(postalCode).Click_Continue();
-        new OverView_Page(getDriver()).clickOnFinshBtn();
+        new Page06_OverView(getDriver()).clickOnFinshBtn();
     }
     @Test
     public void Valid_Order(){
-        new Finish_Page(getDriver()).clickBack();
-        Assert.assertEquals(new Finish_Page(getDriver()).assert_URL(),Home_URL);
+        new Page07_Finish(getDriver()).clickBack();
+        Assert.assertEquals(new Page07_Finish(getDriver()).assert_URL(),Home_URL);
     }
     @Test
     public void InValid_Order(){
-        new Finish_Page(getDriver()).clickBack();
-        Assert.assertEquals(new Finish_Page(getDriver()).assert_URL(),Invalid_page);
+        new Page07_Finish(getDriver()).clickBack();
+        Assert.assertEquals(new Page07_Finish(getDriver()).assert_URL(),Invalid_page);
     }
     @AfterMethod
     public void quit()

@@ -22,7 +22,7 @@ import static utitie.TestData.*;
         TestMethodLoggerListener.class,
         ITestResultListener.class
 })
-public class Add_Cart_TC {
+public class TC04_Add_Cart {
 
     @BeforeMethod
     public void setUp() throws IOException {
@@ -31,54 +31,54 @@ public class Add_Cart_TC {
         getDriver().get(DataUtitlie.getPropertyValue("enviroments", "LOGIN_URL"));
         LogsUtility.info("Page is Redirected to URL");
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        new Login_Page(getDriver()).userlogin(username).passlogin(password).LoginBtn();
+        new Page01_Login(getDriver()).userlogin(username).passlogin(password).LoginBtn();
         LogsUtility.info("User logged in successfully");
-        new Home_Page(getDriver()).clickon_Product();
-        ProductDetails_Page product = new ProductDetails_Page(getDriver());
+        new Page02_Home(getDriver()).clickon_Product();
+        Page03_ProductDetails product = new Page03_ProductDetails(getDriver());
         product.clickAddToCart();
         product.clickCart();
     }
     @Test
     public void Valid_Return() {
-       Home_Page home = new AddToCart_Page(getDriver()).click_back();
+       Page02_Home home = new Page04_AddToCart(getDriver()).click_back();
        Assert.assertTrue(home.assert_Cart_icon(Home_URL));
     }
     @Test
     public void Invalid_Return() {
-        Home_Page home = new AddToCart_Page(getDriver()).click_back();
+        Page02_Home home = new Page04_AddToCart(getDriver()).click_back();
         Assert.assertTrue(home.assert_Cart_icon(Logout),"The Page Fail to navigate to the home page");
     }
     @Test
     public void Valid_Checkout() {
-        new AddToCart_Page(getDriver()).click_checkout();
-        Assert.assertTrue(new AddToCart_Page(getDriver()).assert_item(Checkout));
+        new Page04_AddToCart(getDriver()).click_checkout();
+        Assert.assertTrue(new Page04_AddToCart(getDriver()).assert_item(Checkout));
     }
     @Test
     public void InValid_Checkout() {
-        new AddToCart_Page(getDriver()).click_checkout();
-        Assert.assertTrue(new AddToCart_Page(getDriver()).assert_item(Home_URL));
+        new Page04_AddToCart(getDriver()).click_checkout();
+        Assert.assertTrue(new Page04_AddToCart(getDriver()).assert_item(Home_URL));
     }
     @Test
     public void Click_on_Product() {
-        ProductDetails_Page home = new AddToCart_Page(getDriver()).click_product_detail();
+        Page03_ProductDetails home = new Page04_AddToCart(getDriver()).click_product_detail();
         Assert.assertEquals(home.assertdetaails(),Expected);
     }
     @Test
     public void Click_on_Remove()
     {
-        new AddToCart_Page(getDriver()).click_remove_item();
-        Assert.assertFalse(new AddToCart_Page(getDriver()).isRemoveButtonPresent(),"The Item Has beeen removed successfullly");
+        new Page04_AddToCart(getDriver()).click_remove_item();
+        Assert.assertFalse(new Page04_AddToCart(getDriver()).isRemoveButtonPresent(),"The Item Has beeen removed successfullly");
     }
     @Test
     public void CartBadge_After_Remove()
     {
-        new AddToCart_Page(getDriver()).click_remove_item();
+        new Page04_AddToCart(getDriver()).click_remove_item();
         WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(5));
         wait.until(ExpectedConditions.or(
                 ExpectedConditions.invisibilityOfElementLocated(By.className("shopping_cart_badge")),
                 ExpectedConditions.textToBe(By.className("shopping_cart_badge"), "0")
         ));
-        String CountafterRemove = new AddToCart_Page(getDriver()).getCartBadgeNumber();
+        String CountafterRemove = new Page04_AddToCart(getDriver()).getCartBadgeNumber();
         System.out.println("Cart count after remove: '" + CountafterRemove + "'");
         Assert.assertTrue(CountafterRemove.trim().isEmpty() || CountafterRemove.trim().equals("0"));
     }

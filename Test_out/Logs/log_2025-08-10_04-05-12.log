@@ -1,0 +1,7 @@
+[INFO] 10-08-2025 04:05:12 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 10-08-2025 04:05:15 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 10-08-2025 04:05:16 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 10-08-2025 04:05:17 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 10-08-2025 04:05:17 [main] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 10-08-2025 04:05:17 [main] [utilities.LogsUtility] - User navigated successfully to the add to cart page and navigate to the Checkout page
+[INFO] 10-08-2025 04:05:18 [main] [utilities.LogsUtility] - Driver is closed

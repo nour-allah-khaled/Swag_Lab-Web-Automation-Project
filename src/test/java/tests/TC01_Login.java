@@ -1,7 +1,7 @@
 package tests;
 
 import driver_factory.DriverFactory;
-import pages.Login_Page;
+import pages.Page01_Login;
 import utilities.DataUtitlie;
 
 import org.testng.*;
@@ -23,7 +23,7 @@ import static utitie.TestData.*;
         TestMethodLoggerListener.class,
         ITestResultListener.class
 })
-public class Login_TC {
+public class TC01_Login {
     @BeforeMethod
     public void setUp() throws IOException {
         setDriver(Browser);
@@ -34,28 +34,28 @@ public class Login_TC {
     }
     @Test(priority = 1)
     public void testLogin() {
-        new Login_Page(getDriver()).userlogin(username)
+        new Page01_Login(getDriver()).userlogin(username)
                 .passlogin(password).LoginBtn();
-        Assert.assertTrue(new Login_Page(getDriver()).assertLogin(Exp_URL));
+        Assert.assertTrue(new Page01_Login(getDriver()).assertLogin(Exp_URL));
     }
 
     @Test(priority = 2)
     public void Invaliduser_testLogin() {
-        new Login_Page(getDriver()).userlogin(invalidname)
+        new Page01_Login(getDriver()).userlogin(invalidname)
                 .passlogin(password).LoginBtn();
-        Assert.assertTrue(new Login_Page(getDriver()).assertLogin(Exp_URL));
+        Assert.assertTrue(new Page01_Login(getDriver()).assertLogin(Exp_URL));
     }
     @Test(priority = 3)
     public void Invalidpass_testLogin() {
-        new Login_Page(getDriver()).userlogin(username)
+        new Page01_Login(getDriver()).userlogin(username)
                 .passlogin(invalidpass).LoginBtn();
-        Assert.assertTrue(new Login_Page(getDriver()).assertLogin(Exp_URL));
+        Assert.assertTrue(new Page01_Login(getDriver()).assertLogin(Exp_URL));
     }
     @Test(priority = 4)
     public void empty_testLogin() {
-        new Login_Page(getDriver()).userlogin(emptyname)
+        new Page01_Login(getDriver()).userlogin(emptyname)
                 .passlogin(emptypass).LoginBtn();
-        Assert.assertTrue(new Login_Page(getDriver()).assertLogin(Exp_URL));
+        Assert.assertTrue(new Page01_Login(getDriver()).assertLogin(Exp_URL));
     }
     @AfterMethod
     public void quit()

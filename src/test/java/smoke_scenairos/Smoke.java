@@ -5,8 +5,8 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.Home_Page;
-import pages.Login_Page;
+import pages.Page02_Home;
+import pages.Page01_Login;
 import utilities.DataUtitlie;
 import utilities.LogsUtility;
 
@@ -29,38 +29,38 @@ public class Smoke {
     }
     @Test(groups = "Smoke")
     public void ValidLogin_Scenario() {
-        new Login_Page(getDriver()).userlogin(username)
+        new Page01_Login(getDriver()).userlogin(username)
                 .passlogin(password).LoginBtn();
-        Assert.assertTrue(new Login_Page(getDriver()).assertLogin(Exp_URL));
+        Assert.assertTrue(new Page01_Login(getDriver()).assertLogin(Exp_URL));
         LogsUtility.info("User logged in successfully and navigated to the Home page");
     }
     @Test(groups = "Smoke")
     public void ValidNavigateToProduct_Scenario() {
-        new Login_Page(getDriver()).userlogin(username)
+        new Page01_Login(getDriver()).userlogin(username)
                 .passlogin(password).LoginBtn();
-        Assert.assertTrue(new Login_Page(getDriver()).assertLogin(Exp_URL));
+        Assert.assertTrue(new Page01_Login(getDriver()).assertLogin(Exp_URL));
         LogsUtility.info("User logged in successfully and navigated to the Home page");
-        new Home_Page(getDriver()).clickon_Product();
-        Assert.assertTrue(new Home_Page(getDriver()).assertProdcut(Expected), "Product Details URL matches expected.");
+        new Page02_Home(getDriver()).clickon_Product();
+        Assert.assertTrue(new Page02_Home(getDriver()).assertProdcut(Expected), "Product Details URL matches expected.");
         LogsUtility.info("User navigated successfully to the product details page");
     }
     @Test(groups = "Smoke")
     public void ValidSortingByPrice_Scenario() {
-        new Login_Page(getDriver()).userlogin(username)
+        new Page01_Login(getDriver()).userlogin(username)
                 .passlogin(password).LoginBtn();
-        Assert.assertTrue(new Login_Page(getDriver()).assertLogin(Exp_URL));
+        Assert.assertTrue(new Page01_Login(getDriver()).assertLogin(Exp_URL));
         LogsUtility.info("User logged in successfully and navigated to the Home page");
-        new Home_Page(getDriver()).DropDown("Price (low to high)").assertProductsSorted_LowPrice();
+        new Page02_Home(getDriver()).DropDown("Price (low to high)").assertProductsSorted_LowPrice();
         LogsUtility.info("Products are sorted by price from low to high successfully");
     }
     @Test(groups = "Smoke")
     public void ValidLogout_Scenario() {
-        new Login_Page(getDriver()).userlogin(username)
+        new Page01_Login(getDriver()).userlogin(username)
                 .passlogin(password).LoginBtn();
-        Assert.assertTrue(new Login_Page(getDriver()).assertLogin(Exp_URL));
+        Assert.assertTrue(new Page01_Login(getDriver()).assertLogin(Exp_URL));
         LogsUtility.info("User logged in successfully and navigated to the Home page");
-        new Home_Page(getDriver()).clickHumicon();
-        Assert.assertTrue(new Home_Page(getDriver()).assert_Logout(Logout));
+        new Page02_Home(getDriver()).clickHumicon();
+        Assert.assertTrue(new Page02_Home(getDriver()).assert_Logout(Logout));
     }
     @AfterMethod(alwaysRun = true)
     public void quit() {

@@ -15,14 +15,4 @@
             <class name="e2e_scenairos.Valid_E2E_Scenarios"/>
         </classes>
     </test>
-    <test name="InValid Scenarios">
-        <groups>
-            <run>
-                <include name="InValid_Scenarios"/>
-            </run>
-        </groups>
-        <classes>
-            <class name="e2e_scenairos.InValid_E2E_Scenarios"/>
-        </classes>
-    </test>
 </suite>

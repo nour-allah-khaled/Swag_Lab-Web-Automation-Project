@@ -184,7 +184,7 @@
             </build>
         </profile>
         <profile>
-            <id>invalid_e2e</id>
+            <id>e2e_valid</id>
             <build>
                 <plugins>
                     <plugin>
@@ -196,7 +196,44 @@
                                 -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/1.9.21.1/aspectjweaver-1.9.21.1.jar
                             </argLine>
                             <suiteXmlFiles>
-                                <suiteXmlFile>invalid_e2e.xml</suiteXmlFile>
+                                <suiteXmlFile>e2e_valid.xml</suiteXmlFile>
+                            </suiteXmlFiles>
+                        </configuration>
+                    </plugin>
+                    <plugin>
+                        <groupId>io.qameta.allure</groupId>
+                        <artifactId>allure-maven</artifactId>
+                        <version>2.11.2</version>
+                        <configuration>
+                            <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <id>allure-report</id>
+                                <phase>post-integration-test</phase>
+                                <goals>
+                                    <goal>report</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>e2e_invalid</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>3.2.5</version>
+                        <configuration>
+                            <argLine>
+                                -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/1.9.21.1/aspectjweaver-1.9.21.1.jar
+                            </argLine>
+                            <suiteXmlFiles>
+                                <suiteXmlFile>e2e_invalid.xml</suiteXmlFile>
                             </suiteXmlFiles>
                         </configuration>
                     </plugin>

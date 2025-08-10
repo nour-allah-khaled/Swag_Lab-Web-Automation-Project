@@ -1,24 +1,27 @@
 package pages;
 
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utilities.Utilitie;
 
-public class OverView_Page  {
+public class Page06_OverView {
     private WebDriver driver;
     private final By finishBtn = By.cssSelector("#finish");
     private final By cancleBtn = By.cssSelector("#cancel");
-    public OverView_Page(WebDriver driver) {
+    public Page06_OverView(WebDriver driver) {
         this.driver = driver;
     }
-    public Finish_Page clickOnFinshBtn() {
+    @Step("Clicking on Finish button to complete the checkout process")
+    public Page07_Finish clickOnFinshBtn() {
         Utilitie.clicking(driver, finishBtn);
-        return new Finish_Page(driver);
+        return new Page07_Finish(driver);
     }
-    public Checkout_Page clickOnCancleBtn() {
+    @Step("Clicking on Cancel button to return to Checkout page")
+    public Page05_Checkout clickOnCancleBtn() {
         Utilitie.clicking(driver, cancleBtn);
-        return new Checkout_Page(driver);
+        return new Page05_Checkout(driver);
     }
     public String assert_URL() {
         return driver.getCurrentUrl();

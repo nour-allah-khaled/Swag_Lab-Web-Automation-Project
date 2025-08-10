@@ -1,0 +1,30 @@
+[INFO] 10-08-2025 05:42:16 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 10-08-2025 05:42:19 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 10-08-2025 05:42:20 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 10-08-2025 05:42:20 [main] [utilities.LogsUtility] - Test Case ValidLogin_Scenario started
+[INFO] 10-08-2025 05:42:21 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 10-08-2025 05:42:21 [main] [utilities.LogsUtility] - Test Case ValidLogin_Scenario passed
+[INFO] 10-08-2025 05:42:21 [main] [utilities.LogsUtility] - Driver is closed
+[INFO] 10-08-2025 05:42:21 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 10-08-2025 05:42:23 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 10-08-2025 05:42:24 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 10-08-2025 05:42:24 [main] [utilities.LogsUtility] - Test Case ValidLogout_Scenario started
+[INFO] 10-08-2025 05:42:25 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 10-08-2025 05:42:25 [main] [utilities.LogsUtility] - Test Case ValidLogout_Scenario passed
+[INFO] 10-08-2025 05:42:26 [main] [utilities.LogsUtility] - Driver is closed
+[INFO] 10-08-2025 05:42:26 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 10-08-2025 05:42:27 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 10-08-2025 05:42:28 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 10-08-2025 05:42:28 [main] [utilities.LogsUtility] - Test Case ValidNavigateToProduct_Scenario started
+[INFO] 10-08-2025 05:42:28 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 10-08-2025 05:42:29 [main] [utilities.LogsUtility] - User navigated successfully to the product details page
+[INFO] 10-08-2025 05:42:29 [main] [utilities.LogsUtility] - Test Case ValidNavigateToProduct_Scenario passed
+[INFO] 10-08-2025 05:42:29 [main] [utilities.LogsUtility] - Driver is closed
+[INFO] 10-08-2025 05:42:29 [main] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 10-08-2025 05:42:31 [main] [utilities.LogsUtility] - Edge Driver is opened
+[INFO] 10-08-2025 05:42:31 [main] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 10-08-2025 05:42:31 [main] [utilities.LogsUtility] - Test Case ValidSortingByPrice_Scenario started
+[INFO] 10-08-2025 05:42:32 [main] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 10-08-2025 05:42:32 [main] [utilities.LogsUtility] - Products are sorted by price from low to high successfully
+[INFO] 10-08-2025 05:42:32 [main] [utilities.LogsUtility] - Test Case ValidSortingByPrice_Scenario passed
+[INFO] 10-08-2025 05:42:33 [main] [utilities.LogsUtility] - Driver is closed

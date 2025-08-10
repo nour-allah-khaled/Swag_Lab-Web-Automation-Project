@@ -1,8 +1,8 @@
 package tests;
 import driver_factory.DriverFactory;
-import pages.Home_Page;
-import pages.Login_Page;
-import pages.ProductDetails_Page;
+import pages.Page02_Home;
+import pages.Page01_Login;
+import pages.Page03_ProductDetails;
 import utilities.DataUtitlie;
 
 import org.testng.Assert;
@@ -24,7 +24,7 @@ import static utitie.TestData.*;
         TestMethodLoggerListener.class,
         ITestResultListener.class
     })
-public class Product_Details_TC {
+public class TC03_Product_Details {
     @BeforeMethod
     public void setUp() throws IOException {
         setDriver(Browser);
@@ -32,13 +32,13 @@ public class Product_Details_TC {
         getDriver().get(DataUtitlie.getPropertyValue("enviroments", "LOGIN_URL"));
         LogsUtility.info("Page is Redirected to URL");
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        new Login_Page(getDriver()).userlogin(username).passlogin(password).LoginBtn();
+        new Page01_Login(getDriver()).userlogin(username).passlogin(password).LoginBtn();
         LogsUtility.info("User logged in successfully");
-        new Home_Page(getDriver()).clickon_Product();
+        new Page02_Home(getDriver()).clickon_Product();
     }
     @Test
     public void Valid_AddToCartButton() {
-        ProductDetails_Page product = new ProductDetails_Page(getDriver());
+        Page03_ProductDetails product = new Page03_ProductDetails(getDriver());
         product.clickAddToCart();
         String count = product.getCartBadgeNumber();
         Assert.assertEquals("1", count);
@@ -46,7 +46,7 @@ public class Product_Details_TC {
     }
     @Test
     public void Valid_RemovefromCart() {
-        ProductDetails_Page product = new ProductDetails_Page(getDriver());
+        Page03_ProductDetails product = new Page03_ProductDetails(getDriver());
         product.clickAddToCart();
         String count = product.getCartBadgeNumber();
         Assert.assertEquals("1", count);
@@ -57,20 +57,20 @@ public class Product_Details_TC {
     @Test
     public void Valid_Remove()
     {
-        ProductDetails_Page product = new ProductDetails_Page(getDriver());
+        Page03_ProductDetails product = new Page03_ProductDetails(getDriver());
         product.clickAddToCart();
         String buttonText = product.getRemoveButtonText();
         Assert.assertEquals(buttonText, "Remove");
     }
     @Test
     public void Click_Cart_icon(){
-        new ProductDetails_Page(getDriver()).clickCart();
-        Assert.assertTrue(new ProductDetails_Page(getDriver()).assertCart(Cart_URL));
+        new Page03_ProductDetails(getDriver()).clickCart();
+        Assert.assertTrue(new Page03_ProductDetails(getDriver()).assertCart(Cart_URL));
     }
     @Test
     public void Click_pre_page(){
-        new ProductDetails_Page(getDriver()).Back();
-        Assert.assertTrue(new ProductDetails_Page(getDriver()).assertCart(Home_URL));
+        new Page03_ProductDetails(getDriver()).Back();
+        Assert.assertTrue(new Page03_ProductDetails(getDriver()).assertCart(Home_URL));
     }
     @AfterMethod
     public void quit() {

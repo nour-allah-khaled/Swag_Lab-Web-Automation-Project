@@ -123,7 +123,7 @@ Test_out/allure-results
 
 📈 **Example screenshot of the report interface:**
 
-![Allure Report Screenshot](https://github.com/nour-allah-khaled/Swag_Lab-Web-Automation-Project/blob/main/assets/allure-report.png)
+![Allure Report Screenshot](https://github.com/nour-allah-khaled/Swag_Lab-Web-Automation-Project/blob/main/allure_result_screens/Testing_ResultScreen/allure-report.png)
 
 ---
 

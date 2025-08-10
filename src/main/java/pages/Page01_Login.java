@@ -1,32 +1,33 @@
 package pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utilities.Utilitie;
 
-public class Login_Page {
+public class Page01_Login {
     private final WebDriver driver;
     private final By username = By.cssSelector("#user-name");
     private final By password = By.cssSelector("#password");
     private final By loginbtn = By.cssSelector("#login-button");
 
-    public Login_Page(WebDriver driver) {
+    public Page01_Login(WebDriver driver) {
         this.driver = driver;
     }
-
-    public Login_Page userlogin(String user) {
+    @Step("User login with username: {user}")
+    public Page01_Login userlogin(String user) {
         Utilitie.sendKeys(driver, username, user);
         return this;
     }
-
-    public Login_Page passlogin(String pass) {
+    @Step("User login with password: {pass}")
+    public Page01_Login passlogin(String pass) {
         Utilitie.sendKeys(driver, password, pass);
         return this;
     }
-
-    public Home_Page LoginBtn() {
+    @Step("Clicking on login button")
+    public Page02_Home LoginBtn() {
         Utilitie.clicking(driver, loginbtn);
-        return new Home_Page(driver);
+        return new Page02_Home(driver);
     }
 
     public boolean assertLogin(String Expected) {

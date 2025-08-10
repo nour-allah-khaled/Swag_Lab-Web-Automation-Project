@@ -8,7 +8,7 @@
     </listeners>
     <test name="MyTests">
         <classes>
-            <class name="tests.Login_TC">
+            <class name="tests.TC01_Login">
                 <methods>
                     <include name="testLogin"/>
                     <include name="Invaliduser_testLogin"/>
@@ -16,12 +16,12 @@
                     <include name="empty_testLogin"/>
                 </methods>
             </class>
-            <class name="tests.Home_TC"/>
-            <class name="tests.Product_Details_TC"/>
-            <class name="tests.Add_Cart_TC"></class>
-            <class name="tests.Checkout_TC"></class>
-            <class name="tests.OverView_TC"></class>
-            <class name="tests.Finish_Tc"></class>
+            <class name="tests.TC02_Home"/>
+            <class name="tests.TC03_Product_Details"/>
+            <class name="tests.TC04_Add_Cart"></class>
+            <class name="tests.TC05_Checkout"></class>
+            <class name="tests.TC06_OverView"></class>
+            <class name="tests.TC07_Finish"></class>
         </classes>
     </test>
 </suite>
