@@ -1,0 +1,77 @@
+[INFO] 13-08-2025 09:21:07 [TestNG-tests-2] [utilities.LogsUtility] - Running on browser: chrome
+[INFO] 13-08-2025 09:21:07 [TestNG-tests-1] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 13-08-2025 09:21:14 [TestNG-tests-1] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 13-08-2025 09:21:14 [TestNG-tests-1] [utilities.LogsUtility] - Browser is openededge
+[INFO] 13-08-2025 09:21:16 [TestNG-tests-1] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 13-08-2025 09:21:17 [TestNG-tests-2] [utilities.LogsUtility] - Running on browser: chrome
+[INFO] 13-08-2025 09:21:17 [TestNG-tests-2] [utilities.LogsUtility] - Browser is openedchrome
+[INFO] 13-08-2025 09:21:17 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoginToCart_Scenario started
+[INFO] 13-08-2025 09:21:18 [TestNG-tests-2] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 13-08-2025 09:21:18 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoginToCart_Scenario started
+[INFO] 13-08-2025 09:21:21 [TestNG-tests-1] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 13-08-2025 09:21:22 [TestNG-tests-1] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 13-08-2025 09:21:23 [TestNG-tests-1] [utilities.LogsUtility] - User navigated successfully to the add to cart page and navigate to the Checkout page
+[INFO] 13-08-2025 09:21:23 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoginToCart_Scenario passed
+[INFO] 13-08-2025 09:21:23 [TestNG-tests-2] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 13-08-2025 09:21:23 [TestNG-tests-1] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 13-08-2025 09:21:28 [TestNG-tests-1] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 13-08-2025 09:21:28 [TestNG-tests-1] [utilities.LogsUtility] - Browser is openededge
+[INFO] 13-08-2025 09:21:29 [TestNG-tests-1] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 13-08-2025 09:21:29 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoginToFinsh_Scenario started
+[INFO] 13-08-2025 09:21:30 [TestNG-tests-1] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 13-08-2025 09:21:30 [TestNG-tests-1] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 13-08-2025 09:21:31 [TestNG-tests-1] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 13-08-2025 09:21:31 [TestNG-tests-1] [utilities.LogsUtility] - User navigated successfully to the add to cart page and navigate to the Checkout page
+[INFO] 13-08-2025 09:21:32 [TestNG-tests-1] [utilities.LogsUtility] - User navigated successfully to the Checkout page and redirect to the Overview page after clicking on the continue button
+[INFO] 13-08-2025 09:21:32 [TestNG-tests-1] [utilities.LogsUtility] - User navigated successfully to the Overview page and redirect to the Finish page after clicking on the finish button
+[INFO] 13-08-2025 09:21:32 [TestNG-tests-1] [utilities.LogsUtility] - The checkout complated successfully and navigated to the Home page
+[INFO] 13-08-2025 09:21:32 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoginToFinsh_Scenario passed
+[INFO] 13-08-2025 09:21:33 [TestNG-tests-1] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 13-08-2025 09:21:35 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoginToCart_Scenario failed
+[INFO] 13-08-2025 09:21:36 [TestNG-tests-1] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 13-08-2025 09:21:36 [TestNG-tests-1] [utilities.LogsUtility] - Browser is openededge
+[INFO] 13-08-2025 09:21:37 [TestNG-tests-1] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 13-08-2025 09:21:37 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoginToProductDetails_Scenario started
+[INFO] 13-08-2025 09:21:38 [TestNG-tests-2] [utilities.LogsUtility] - Running on browser: chrome
+[INFO] 13-08-2025 09:21:39 [TestNG-tests-1] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 13-08-2025 09:21:39 [TestNG-tests-1] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 13-08-2025 09:21:39 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoginToProductDetails_Scenario passed
+[INFO] 13-08-2025 09:21:40 [TestNG-tests-1] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 13-08-2025 09:21:42 [TestNG-tests-2] [utilities.LogsUtility] - Running on browser: chrome
+[INFO] 13-08-2025 09:21:42 [TestNG-tests-2] [utilities.LogsUtility] - Browser is openedchrome
+[INFO] 13-08-2025 09:21:43 [TestNG-tests-1] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 13-08-2025 09:21:43 [TestNG-tests-1] [utilities.LogsUtility] - Browser is openededge
+[INFO] 13-08-2025 09:21:44 [TestNG-tests-2] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 13-08-2025 09:21:44 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoginToFinsh_Scenario started
+[INFO] 13-08-2025 09:21:45 [TestNG-tests-1] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 13-08-2025 09:21:45 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoginToRemoveFromCart_Scenario started
+[INFO] 13-08-2025 09:21:45 [TestNG-tests-2] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 13-08-2025 09:21:46 [TestNG-tests-2] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 13-08-2025 09:21:46 [TestNG-tests-1] [utilities.LogsUtility] - User logged in successfully and navigated to the Home page
+[INFO] 13-08-2025 09:21:46 [TestNG-tests-1] [utilities.LogsUtility] - User Clicked on the product and navigate to the product details page
+[INFO] 13-08-2025 09:21:46 [TestNG-tests-1] [utilities.LogsUtility] - After clicking on the add to cart button, the cart badge increased successfully and the product appear on the cart page
+[INFO] 13-08-2025 09:21:56 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoginToFinsh_Scenario failed
+[INFO] 13-08-2025 09:21:57 [TestNG-tests-2] [utilities.LogsUtility] - Running on browser: chrome
+[INFO] 13-08-2025 09:22:01 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoginToRemoveFromCart_Scenario failed
+[INFO] 13-08-2025 09:22:01 [TestNG-tests-1] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 13-08-2025 09:22:02 [TestNG-tests-2] [utilities.LogsUtility] - Test Case setUp failed
+[INFO] 13-08-2025 09:22:02 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoginToProductDetails_Scenario started
+[INFO] 13-08-2025 09:22:02 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoginToProductDetails_Scenario skipped
+[INFO] 13-08-2025 09:22:02 [TestNG-tests-2] [utilities.LogsUtility] - Test Case quit failed
+[INFO] 13-08-2025 09:22:02 [TestNG-tests-2] [utilities.LogsUtility] - Running on browser: chrome
+[INFO] 13-08-2025 09:22:07 [TestNG-tests-1] [utilities.LogsUtility] - Running on browser: edge
+[INFO] 13-08-2025 09:22:07 [TestNG-tests-1] [utilities.LogsUtility] - Browser is openededge
+[INFO] 13-08-2025 09:22:08 [TestNG-tests-2] [utilities.LogsUtility] - Running on browser: chrome
+[INFO] 13-08-2025 09:22:08 [TestNG-tests-1] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 13-08-2025 09:22:08 [TestNG-tests-2] [utilities.LogsUtility] - Browser is openedchrome
+[INFO] 13-08-2025 09:22:08 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoingToHome_withSortingPrice_Scenario started
+[INFO] 13-08-2025 09:22:09 [TestNG-tests-2] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 13-08-2025 09:22:09 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoginToRemoveFromCart_Scenario started
+[INFO] 13-08-2025 09:22:09 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoginToRemoveFromCart_Scenario skipped
+[INFO] 13-08-2025 09:22:09 [TestNG-tests-2] [utilities.LogsUtility] - Running on browser: chrome
+[INFO] 13-08-2025 09:22:11 [TestNG-tests-2] [utilities.LogsUtility] - Running on browser: chrome
+[INFO] 13-08-2025 09:22:11 [TestNG-tests-2] [utilities.LogsUtility] - Browser is openedchrome
+[INFO] 13-08-2025 09:22:12 [TestNG-tests-2] [utilities.LogsUtility] - Page is Redirected to URL
+[INFO] 13-08-2025 09:22:12 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoingToHome_withSortingPrice_Scenario started
+[INFO] 13-08-2025 09:22:12 [TestNG-tests-2] [utilities.LogsUtility] - Test Case LoingToHome_withSortingPrice_Scenario skipped
+[INFO] 13-08-2025 09:22:18 [TestNG-tests-1] [utilities.LogsUtility] - Test Case LoingToHome_withSortingPrice_Scenario failed
