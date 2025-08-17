@@ -3,18 +3,18 @@
 ## 📌 Project Overview
 The **Swag Labs Automation Testing Framework** is a comprehensive, maintainable, and scalable automated testing solution designed to validate the **Swag Labs** e-commerce web application.
 
-This framework ensures that every release of the application meets **functional, regression, and smoke testing requirements** before deployment.  
-It is built using **modern automation practices** with:
-
-- **Java** for programming.  
-- **Selenium WebDriver** for browser automation.  
-- **TestNG** for test management and execution control.  
-- **Page Object Model (POM)** for clean and reusable code.  
-- **Data-Driven Framework** for running tests with multiple input data sets.  
-- **Maven** for dependency and build management.  
-- **Allure** for advanced reporting.  
-- **Log4j2** for structured and trackable logging.  
-- **Jenkins** for CI/CD.
+## 🛠 Tech Stack
+| Technology / Tool      | Purpose                                           |
+| ---------------------- | ------------------------------------------------- |
+| **Java**               | Main programming language                         |
+| **Selenium WebDriver** | Web UI automation                                 |
+| **TestNG**             | Test execution and management                     |
+| **Maven**              | Build automation and dependency management        |
+| **Allure Reports**     | Rich and interactive reporting                    |
+| **Log4j2**             | Logging framework                                 |
+| **Git**                | Version control and code collaboration            |
+| **Jenkins**            | Continuous Integration and Delivery               |
+| **JSON**               | Data-driven testing                               |
 
 ---
 
@@ -31,21 +31,6 @@ It is built using **modern automation practices** with:
 - **Allure Reporting:** detailed, interactive reports with screenshots and logs.  
 - **Jenkins CI/CD pipeline:** automated build and test execution.  
 - **Scalable TestNG XML suites:** multiple suites for regression, smoke, and scenario-based testing.  
-
----
-
-## 🛠 Tech Stack
-| Technology / Tool      | Purpose                                           |
-| ---------------------- | ------------------------------------------------- |
-| **Java**               | Main programming language                         |
-| **Selenium WebDriver** | Web UI automation                                 |
-| **TestNG**             | Test execution and management                     |
-| **Maven**              | Build automation and dependency management        |
-| **Allure Reports**     | Rich and interactive reporting                    |
-| **Log4j2**             | Logging framework                                 |
-| **Git**                | Version control and code collaboration            |
-| **Jenkins**            | Continuous Integration and Delivery               |
-| **JSON**               | Data-driven testing                               |
 
 ---
 
