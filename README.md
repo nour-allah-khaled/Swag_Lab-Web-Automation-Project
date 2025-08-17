@@ -24,7 +24,6 @@ It is built using **modern automation practices** with:
 - **Allure reports** with detailed screenshots and logs.
 - **Multiple TestNG XML suite files** for flexible execution.
 - **Jenkins pipeline integration** for automated execution.
-- **Jira integration** for defect tracking and linking failed cases.
 
 ---
 
@@ -39,7 +38,6 @@ It is built using **modern automation practices** with:
 | **Log4j2**             | Logging framework                                 |
 | **Git**                | Version control and code collaboration            |
 | **Jenkins**            | Continuous Integration and Delivery               |
-| **Jira**               | Defect tracking, sprint planning, test management |
 | **JSON**               | Data-driven testing                               |
 
 ---
