@@ -13,7 +13,6 @@ It is built using **modern automation practices** with:
 - **Allure** for advanced reporting.
 - **Log4j2** for structured and trackable logging.
 - **Jenkins** for CI/CD.
-- **Jira** for test management and defect tracking.
 
 ---
 
