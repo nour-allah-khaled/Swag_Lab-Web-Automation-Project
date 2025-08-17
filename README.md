@@ -140,9 +140,9 @@ Before running the tests, make sure you have the following installed on your mac
 ---
 ## 📊 Allure Reports  
 To generate and view Allure reports after test execution, run:  
-    ```bash
-    mvn allure:serve
-    ```
+```bash
+mvn allure:serve
+```
 ## 📸 Sample Allure Reports  
 Below are sample screenshots from the Allure report:
 
