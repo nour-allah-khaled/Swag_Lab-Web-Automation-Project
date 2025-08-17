@@ -49,7 +49,6 @@ Swag_Lab_Project/
 ├── allure-report/                      # Generated Allure HTML reports
 ├── allure_result_screens/              # Test execution screenshots organized by scenario type
 │   ├── E2E_ResultScreen/
-│   ├── Paraller_ResultScreen/
 │   ├── Smoke_ResultScreen/
 │   └── Testing_ResultScreen/
 │
