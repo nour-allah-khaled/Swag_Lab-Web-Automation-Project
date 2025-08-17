@@ -114,29 +114,29 @@ Before running the tests, make sure you have the following installed on your mac
 ## ▶️ Run the tests using Maven profiles
 
  ### 🟡 Run Testing Suite 
-    ```bash
-    mvn clean test -Ptesting
-    ```
+ ```bash
+ mvn clean test -Ptesting
+ ```
  ### 🟢 Run E2E Tests  
-    ```bash
-    mvn clean test -Pe2e
-    ```
+ ```bash
+ mvn clean test -Pe2e
+ ```
  ### ✅ Run Valid E2E Scenarios
-    ```bash
-    mvn clean test -Pe2e_valid
-    ```
-### ❌ Run Invalid E2E Scenarios
-    ```bash
-    mvn clean test -Pe2e_invalid
-    ```
-### ⚡ Run Smoke Tests
-    ```bash
-    mvn clean test -Psmoke
-    ```
-### 🔀 Run Tests in Parallel
-    ```bash
-    mvn clean test -Pparaller
-    ```
+ ```bash
+ mvn clean test -Pe2e_valid
+ ```
+ ### ❌ Run Invalid E2E Scenarios
+ ```bash
+ mvn clean test -Pe2e_invalid
+ ```
+ ### ⚡ Run Smoke Tests
+ ```bash
+ mvn clean test -Psmoke
+ ```
+ ### 🔀 Run Tests in Parallel
+ ```bash
+ mvn clean test -Pparaller
+ ```
 ---
 ## 📊 Allure Reports  
 To generate and view Allure reports after test execution, run:  
