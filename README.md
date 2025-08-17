@@ -1,17 +1,19 @@
-# 🧪 Swag Lab Web Automation Testing 
+# 🧪 Swag Labs Web Automation Testing 
 
 ## 📌 Project Overview
-The **Swag Lab Automation Testing Framework** is a comprehensive, maintainable, and scalable automated testing solution designed to validate the **Swag Labs** e-commerce web application.
+The **Swag Labs Automation Testing Framework** is a comprehensive, maintainable, and scalable automated testing solution designed to validate the **Swag Labs** e-commerce web application.
 
 This framework ensures that every release of the application meets **functional, regression, and smoke testing requirements** before deployment.  
 It is built using **modern automation practices** with:
-- **Java** for programming.
-- **Selenium WebDriver** for browser automation.
-- **TestNG** for test management and execution control.
-- **Page Object Model (POM)** for clean and reusable code.
-- **Maven** for dependency and build management.
-- **Allure** for advanced reporting.
-- **Log4j2** for structured and trackable logging.
+
+- **Java** for programming.  
+- **Selenium WebDriver** for browser automation.  
+- **TestNG** for test management and execution control.  
+- **Page Object Model (POM)** for clean and reusable code.  
+- **Data-Driven Framework** for running tests with multiple input data sets.  
+- **Maven** for dependency and build management.  
+- **Allure** for advanced reporting.  
+- **Log4j2** for structured and trackable logging.  
 - **Jenkins** for CI/CD.
 
 ---
@@ -47,6 +49,20 @@ It is built using **modern automation practices** with:
 
 ---
 
+## 🔍 Test Coverage
+
+This section summarizes the key modules and functionalities tested in the project to ensure the application works as expected.
+
+- **Login:** Valid/invalid login, error messages, successful login.  
+- **Home Page:** Page verification, navigation, product overview.  
+- **Product Catalog:** View details, images, price, description.  
+- **Shopping Cart:** Add/update/remove products.  
+- **Checkout Process:** Multi-step checkout, user details, payment simulation.  
+- **Order Overview:** Review order summary.  
+- **Order Completion:** Final confirmation and validation.
+
+---
+
 ## 📂 Project Structure
 ```plaintext
 Swag_Lab_Project/
@@ -72,7 +88,7 @@ Swag_Lab_Project/
 │   │   │   ├── paraller_execution/      # Classes handling parallel execution setup
 │   │   │   ├── smoke_scenarios/         # Smoke test cases (basic critical flows validation)
 │   │   │   ├── tests/                   # Main test classes grouped by functionality
-│   │   │   └── utilitie/                # Extra helper classes for test layer (Allure , TestData)
+│   │   │   └── utilitie/                # Extra helper classes for test layer (Allure, TestData)
 │   │   └── resources/
 │   │       └── TestData/                # Test data in JSON files for data-driven testing
 │
@@ -102,6 +118,7 @@ Before running the tests, make sure you have the following installed on your mac
 - **Jenkins** (for Continuous Integration and scheduled test execution).  
 
 ---
+
 ## ▶️ How to Run  
 
  Clone the repository:  
@@ -110,6 +127,7 @@ Before running the tests, make sure you have the following installed on your mac
    cd Swag_Lab-Web-Automation-Project
    ```
 ---
+
 ## ▶️ Run the tests using Maven profiles
 
  ### 🟡 Run Testing Suite 
@@ -137,6 +155,7 @@ Before running the tests, make sure you have the following installed on your mac
  mvn clean test -Pparaller
  ```
 ---
+
 ## 📊 Allure Reports  
 To generate and view Allure reports after test execution, run:  
 ```bash
@@ -155,6 +174,7 @@ Below are sample screenshots from the Allure report:
 ![Smoke Tests](allure_result_screens/Smoke_ResultScreen/SmokeResult.png)
 
 ---
+
 ## 🤖 Jenkins Integration  
 
 - The project is **integrated with Jenkins** for Continuous Integration (CI).  
@@ -166,6 +186,7 @@ Below are sample screenshots from the Allure report:
   - Centralized reporting of test results.
 
 ---
+
 ## 💡 Ideas for Extension  
 
 - 🌐 Cross-Browser Testing  
@@ -173,6 +194,7 @@ Below are sample screenshots from the Allure report:
 - 🔗 API Testing with Rest Assured
 
 ---
+
 ## 👤 Author / Contact  
 
 **Nour Allah Khaled**  
