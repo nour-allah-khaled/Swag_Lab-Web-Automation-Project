@@ -197,8 +197,7 @@ Below are sample screenshots from the Allure report:
 
 ## 👤 Author / Contact  
 
-**Nour Allah Khaled**  
-[LinkedIn Profile](https://www.linkedin.com/in/nour-allah-khaled)
+**Nour Allah Khaled**:  [LinkedIn Profile](https://www.linkedin.com/in/nour-allah-khaled)
 
 ---
 
